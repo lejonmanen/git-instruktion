@@ -60,7 +60,39 @@ Se [Ångra och återställa](#angra-och-aterstalla). Används till många olika 
 + backa till en tidigare commit utan att ändra filerna
 + se hur en eller flera filer såg ut i en tidigare commit
 + "ångra" en commit
+---
 
 ## Workflow
+Ann di Feynd är frontendutvecklare och ska bygga en app för lokalbokning. Hon ska arbeta tillsammans med Zahar och de använder git för att dela kod och arbeta tillsammans.
+
+Först skapar Ann ett repository med en första, minimal version av de filer som ska finnas. Från början finns bara branchen *master*. Ann vill skapa en dev branch och flera feature branches. Ann ska jobba med funktionen att visa/söka lokaler och kollegan Zeke med funktionen att boka en lokal.
+
+```bash
+git init
+# Lägg till första version av filer
+# Kom ihåg att skapa en .gitignore
+git add .gitignore index.html styles/main.css script/main.js
+git commit -m "Initial commit"
+
+# Dags att skapa branches
+git branch dev
+git branch show-room-feature
+git branch book-room-feature
+```
+
+Nu är det dags att börja jobba med sökfunktionen. Ann byter branch från *master* till *show-room-feature* och börjar skriva kod. Det behövs mera JavaScript så Ann lägger till en ny fil och gör en commit.
+
+```bash
+# Byt till rätt branch
+git checkout show-room-feature
+
+# Lägga till en ny fil
+# Pusha committen så att Zeke kan se den på GitHub
+git add script/show.js
+git commit -m "Added script for show room feature"
+git push
+```
+
+
 ## Konfliktlösning
 ## Ångra och återställa
