@@ -1,6 +1,8 @@
 # Git instruktion
 Git instruktion för studenter
 
-+ [Terminalen](terminalen.md) (in progress)
++ [Terminalen](terminalen.md) (inte påbörjad)
++ [GitHub](github.md) (inte påbörjad)
 + [Git](git.md)
-+ [GitHub](github.md) (in progress)
++ [Git workflow](git-workflow.md)
++ [Konfliktlösning](git-merge.md)
