@@ -36,6 +36,12 @@ När du har gjort en commit så säger vi att din *working directory* är *clean
 Visar alla commits som gjorts i repot. Har många inställningar. Till exempel kan du visa de tre senaste commits som gjorts på en rad var geom att skriva:
 `git log -3 --oneline`
 
+### `git remote`
+Visar om repot är anslutet till några "remote repository", till exempel GitHub. När du skapar ett nytt projekt på din dator ska du använda git remote för att lägga till det på din GitHub:
+```bash
+git remote add origin https://github.com/your-user-name/your-repo-name.git
+```
+
 ### `git push`
 Skickar alla commits du har gjort till GitHub. Innan du har pushat finns dina commits bara *lokalt*, alltså på din dator.
 
