@@ -6,5 +6,5 @@ Git instruktion för studenter
 + [Git](git.md)
 + [Git workflow](git-workflow.md)
 + [Konfliktlösning](git-merge.md)
-+ [Ångra och återställa](git-undo.md) (work in progress)
-+ [Deploy](deploy.md)
++ [Ångra och återställa](git-undo.md)
++ [Deploy](deploy.md) (work in progress)
