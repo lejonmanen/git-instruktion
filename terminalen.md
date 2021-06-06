@@ -5,7 +5,7 @@
 ### 1 Historia
 Innan datormusen fanns, så använde man bara tangentbordet för att styra datorn. Datorerna hade inte heller tillräcklig prestanda för att visa grafiska gränssnitt. Man använde så kallade **terminalprogram**.
 
-**Bash-familjen** utvecklades för Unix. (MacOS bygger till stor del på Linux, som i sin tur bygger på Unix. Därför har alla tre terminaler som baserar sig på Bash.)
+**Bash-familjen** utvecklades för Unix. (MacOS bygger bygger på en Unix-variant. Därför baserar sig terminalen på Bash.)
 
 **Cmd-familjen** finns bara på Windows. Den utvecklades av Microsoft och saknar mycket av den funktionalitet som finns i Bash.
 
