@@ -5,15 +5,18 @@
 ### 1 Historia
 Innan datormusen fanns, så använde man bara tangentbordet för att styra datorn. Datorerna hade inte heller tillräcklig prestanda för att visa grafiska gränssnitt. Man använde så kallade **terminalprogram**.
 
-**Bash-familjen** utvecklades för Unix. (MacOS bygger bygger på en Unix-variant. Därför baserar sig terminalen på Bash.)
+**Bash-familjen** utvecklades för Unix. (macOS bygger bygger på en Unix-variant. Därför baserar sig terminalen på Bash.)
+
+**Z shell** är en terminal som har i stort sett samma funktionalitet som Bash.
 
 **Cmd-familjen** finns bara på Windows. Den utvecklades av Microsoft och saknar mycket av den funktionalitet som finns i Bash.
 
 #### Kända terminalprogram
-+ Bash-familjen
++ Bash- och Zsh-familjerna
 	+ Bash (Linux)
 	+ Git bash (Windows)
-	+ Terminal (MacOS)
+	+ Terminal (macOS)
+	+ Oh My Zsh (macOS)
 + Cmd-familjen
 	+ Cmd / Kommandotolken (Windows)
 	+ PowerShell (Windows)
@@ -24,8 +27,9 @@ Innan datormusen fanns, så använde man bara tangentbordet för att styra dator
 **Övning 2**: om du använder Windows, ladda ner och installera
 antingen Git Bash (följer med Git) eller Cmder.
 
-[Download Git](https://git-scm.com/downloads) |
-[Download Cmder](https://cmder.net/)
+[Download Git + Git Bash](https://git-scm.com/downloads) |
+[Download cmder](https://cmder.net/) |
+[Download ohmyz](https://ohmyz.sh/)
 
 ---
 ### 2 Exempel - terminaler
@@ -48,7 +52,7 @@ Det vita dollartecknet på raden efter kallas för *prompt*. Det är där man sk
 Cmd (Commander) är en mycket kompetent terminal som baseras på bash. Precis som git bash visar den vilken mapp man befinner sig i. Git-branchen visas med röd färg. Prompten är den grekiska bokstaven "lambda".
 
 ---
-*Tips! Terminalen i MacOS har stöd för färger.*
+*Tips! Terminalen i macOS har stöd för färger.*
 
 ---
 
@@ -56,9 +60,16 @@ Cmd (Commander) är en mycket kompetent terminal som baseras på bash. Precis so
 ### 3 Filer, mappar, kataloger
 Filerna i en dator ligger ordnade i mappar. Mappar kan innehålla andra mappar.
 
-MacOS och Liunx har sökvägar som börjar exempelvis med `/usr/home` eller `~/`. Tecknet tilde `~` betyder "användarens hemmamapp". Snedstrecken *lutar åt höger*.
+|Tecken |Engelskt namn |Svenskt namn |
+|-|-|-|
+|`~` |Tilde         |Tilde |
+|`/` |Forward slash |Snedstreck |
+|`\` |Backslash     |Omvänt snedstreck |
 
-Windows har sökvägar som börjar med `C:\Användare\` eller `Mina dokument`. Snedstrecken *lutar åt vänster*.
+macOS och Liunx har sökvägar som börjar exempelvis med `/usr/home` eller `~/`. Tecknet tilde `~` betyder "användarens hemmamapp". Snedstrecken *lutar åt höger*.
+
+
+Windows har sökvägar som börjar med `C:\Användare\` eller `"Mina dokument"`. Snedstrecken *lutar åt vänster*. Om en sökväg innehåller mellanslag, måste du använda citattecken.
 
 |Engelsk term |Svensk term |
 |-------------|------------|
@@ -66,9 +77,12 @@ Windows har sökvägar som börjar med `C:\Användare\` eller `Mina dokument`. S
 |Directory    |Katalog     |
 |Folder       |Mapp        |
 
-*Finder* (MacOS) och *Explorer/Utforskaren* (Windows) är grafiska program för att se vilka filer som finns på din dator.
+*Finder* (macOS) och *Explorer/Utforskaren* (Windows) är grafiska program för att se vilka filer som finns på din dator.
 
-*Tips: undvik svenska tecken och mellanslag i dina mappnamn! En del frontend-verktyg klarar inte av dem.*
+---
+*Tips 1: många program som programmerare använder förutsätter att man använder macOS-sökvägar, även om man kodar på en Windows-dator.*
+
+*Tips 2: undvik svenska tecken och mellanslag i dina mappnamn! En del frontend-verktyg klarar inte av dem.*
 
 #### Exempel
 ```bash
@@ -122,7 +136,7 @@ De flesta terminaler har liknande kortkommandon.
 |`rm fil` |Ta bort en fil från hårddisken |
 |`ls` |Lista filer i aktuell mapp |
 |`ls -al` |Som `ls`, men visa även dolda filer |
-|`sudo kommando` |På MacOS och Linux behöver man ibland autentisera sig som adminstratör. Om du får felet "Permission denied", prova att lägga till `sudo` först på raden. |
+|`sudo kommando` |På macOS och Linux behöver man ibland autentisera sig som adminstratör. Om du får felet "Permission denied", prova att lägga till `sudo` först på raden. |
 
 ---
 **Övning 5**: träna på att skriva kommandon i terminalen, i din mapp "terminalen".
