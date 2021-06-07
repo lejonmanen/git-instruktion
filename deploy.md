@@ -29,10 +29,10 @@ Teknikstack för den här guiden:
 ### Publicera fullstack app
 *Skriven juni 2021*
 1. [Skapa frontend-projekt](#1-skapa-frontend-projekt)
-1. [Skapa repo på GitHub](#2-skapa-repo-p-github)
-1. [Lägga till Express webbserver](#3-lgga-till-express-webbserver)
-1. [Inställningar](#4-instllningar)
-1. [Inställningar på Heroku (hemligheter)](#5-instllningar-p-heroku-hemligheter)
+1. [Skapa repo på GitHub](#2-skapa-repo-på-github)
+1. [Lägga till Express webbserver](#3-lägga-till-express-webbserver)
+1. [Inställningar](#4-inställningar)
+1. [Inställningar på Heroku (hemligheter)](#5-inställningar-på-heroku-hemligheter)
 1. [Hemliga inställningar](#6-hemligheter)
 1. [Publicera](#7-publicera)
 
