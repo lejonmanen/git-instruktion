@@ -3,7 +3,7 @@ Git instruktion för studenter
 
 + [Terminalen](terminalen.md)
 + [GitHub](github.md) (inte påbörjad)
-+ [Deploy](deploy.md) (work in progress)
++ [Deploy](deploy.md)
 
 1. [Git](git.md)
 1. [Git workflow](git-workflow.md)
