@@ -2,7 +2,7 @@
 Git instruktion för studenter
 
 + [Terminalen](terminalen.md)
-+ [GitHub](github.md) (inte påbörjad)
++ [GitHub](github.md)
 + [Deploy](deploy.md)
 
 1. [Git](git.md)
