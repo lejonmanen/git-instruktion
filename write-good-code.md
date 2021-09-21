@@ -2,11 +2,10 @@
 
 *Uppdaterad HT 2021*
 
-1. [Att skriva bra kod](#att-skriva-bra-kod)
-	1. [Problemlösning](#problemlsning)
-	1. [Tänka som en dator](#tnka-som-en-dator)
-	1. [Att följa en specifikation](#att-flja-en-specifikation)
-	1. [Att arbeta med andra](#att-arbeta-med-andra)
+1. [Problemlösning](#problemlsning)
+1. [Tänka som en dator](#tnka-som-en-dator)
+1. [Att följa en specifikation](#att-flja-en-specifikation)
+1. [Att arbeta med andra](#att-arbeta-med-andra)
 
 ---
 
