@@ -5,6 +5,17 @@
 Guiden bygger på att du läst [git.md](git.md) och [terminalen.md](terminalen.md).
 
 # Att arbeta med frontend
+
+1. [Lokalt repo](#lokalt-repo)
+1. [Skapa repo på GitHub](#skapa-repo-på-github)
+1. [Koppla ihop dina båda repon](#koppla-ihop-dina-båda-repon)
+1. [Klona ditt repo](#klona-ditt-repo)
+1. [Commit-historik](#commit-historik)
+1. [Ändra en fil online](#ändra-en-fil-online)
+1. [Pull request](#pull-request)
+
+---
+
 ### Lokalt repo
 Oftast börjar vi med ett lokalt git-repository. Antingen skapar vi det själva med `git init`, eller så använder vi ett ramverk: `npx create-react-app`. För att skapa ett nytt repo, skriv i terminalen:
 ```bash

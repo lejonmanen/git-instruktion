@@ -2,9 +2,9 @@
 
 *Uppdaterad HT 2021*
 
-1. [Metoder för felsökning](#metoder-fr-felskning)
+1. [Metoder för felsökning](#metoder-för-felsökning)
 1. [Praktiska metoder](#praktiska-metoder)
-1. [När något går fel](#nr-ngot-gr-fel)
+1. [När något går fel](#när-något-går-fel)
 1. [Automatiska tester](#automatiska-tester)
 
 *OBS utkast!*

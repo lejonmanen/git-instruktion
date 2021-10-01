@@ -2,6 +2,11 @@
 
 # Terminalen
 
+1. [Historia](#1-historia)
+1. [Exempel - terminaler](#2-exempel---terminaler)
+1. [Filer, mappar, kataloger](#3-filer,-mappar,-kataloger)
+1. [Smarta genvägar](#4-smarta-genvägar)
+
 ### 1 Historia
 Innan datormusen fanns, så använde man bara tangentbordet för att styra datorn. Datorerna hade inte heller tillräcklig prestanda för att visa grafiska gränssnitt. Man använde så kallade **terminalprogram**.
 

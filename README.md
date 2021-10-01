@@ -2,17 +2,17 @@
 Guider till git och relaterade ämnen. Skrivet i första hand för studenter på yrkeshögskola. Det mesta gäller för alla programmeringsutbildningar, men kodexempel är i första hand JavaScript.
 
 ### Git
-1. [Git](git.md)
-1. [Git workflow](git-workflow.md)
-1. [Konfliktlösning](git-merge.md)
-1. [Ångra och återställa](git-undo.md)
+1. [Git](git.md#git)
+1. [Git workflow](git-workflow.md#git)
+1. [Konfliktlösning](git-merge.md#git)
+1. [Ångra och återställa](git-undo.md#ångra-och-återställa)
 
 ### Allmän datorkunskap
-1. [Terminalen](terminalen.md)
-1. [GitHub](github.md)
-1. [Deploy](deploy.md) (publicera JavaScript fullstack-app online)
+1. [Terminalen](terminalen.md#terminalen)
+1. [GitHub](github.md#att-arbeta-med-frontend)
+1. [Deploy](deploy.md#deploy) (publicera JavaScript fullstack-app online)
 
 ### Programmering
-1. [Skriva bra kod](write-good-code.md)
-1. [Felsökning](find-errors.md)
-1. [VS Code: Rekommenderade inställningar](vscode-settings.md)
+1. [Skriva bra kod](write-good-code.md#att-skriva-bra-kod)
+1. [Felsökning](find-errors.md#fel-i-koden)
+1. [VS Code: Rekommenderade inställningar](vscode-settings.md#vs-code-rekommenderade-inställningar)

@@ -2,9 +2,9 @@
 
 *Uppdaterad HT 2021*
 
-1. [Problemlösning](#problemlsning)
-1. [Tänka som en dator](#tnka-som-en-dator)
-1. [Att följa en specifikation](#att-flja-en-specifikation)
+1. [Problemlösning](#problemlösning)
+1. [Tänka som en dator](#tänka-som-en-dator)
+1. [Att följa en specifikation](#att-följa-en-specifikation)
 1. [Att arbeta med andra](#att-arbeta-med-andra)
 
 ---

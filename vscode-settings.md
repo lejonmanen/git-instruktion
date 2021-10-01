@@ -2,11 +2,15 @@
 
 Det är viktigt att konfigurera din editor så att du kan arbeta effektivt i den. Här är några starkt rekommenderade inställningar för VS Code. Du kan göra samma inställningar i andra editorer också, men menyerna ser lite annorlunda ut.
 
-#### Öppna inställningarna
+1. [Öppna inställningarna](#öppna-inställningarna)
+1. [Indentering](#indent)
+1. [Word wrap](#word-wrap)
+
+### Öppna inställningarna
 Du hittar inställningarna under menyn `File > Preferences > Settings`
 ![VS Code: settings](img/vscode/settings.png)
 
-#### Indent
+### Indent
 Indentering är avståndet mellan vänsterkanten i editorn och din kod. När vi börjar ett nytt block, lägger vi till en extra indentering. Justera indenteringen med tab-tangenten. Exempel:
 
 ```javascript
@@ -34,7 +38,7 @@ Skriv "indent" i sökfältet och fyll i kryssrutorna enligt de röda pilarna i b
 
 ---
 
-#### Word wrap
+### Word wrap
 Det värsta som finns är att scrolla i sidled. Vi kan tala om för editorn att den automatiskt ska lägga in radbrytningar, om en rad blir för lång - det kallas *word wrap*. Skriv "wrap" i sökfältet och ändra word wrap till "on".
 
 ![VS Code: word wrap](img/vscode/settings-word-wrap.png)

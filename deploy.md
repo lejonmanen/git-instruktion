@@ -1,6 +1,12 @@
 [Innehåll](README.md)
 
 # Deploy
+
+1. [Översikt](#översikt---olika-sätt-att-publicera-sin-app)
+1. [Vanliga lösningar](#vanliga-lösningar)
+1. [Publicera fullstack app](#publicera-fullstack-app)
+
+
 ### Översikt - olika sätt att publicera sin app
 
 |Namn         |Backend? |Kommentar |
