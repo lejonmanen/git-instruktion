@@ -15,3 +15,4 @@ Guider till git och relaterade ämnen. Skrivet i första hand för studenter på
 ### Programmering
 1. [Skriva bra kod](write-good-code.md)
 1. [Felsökning](find-errors.md)
+1. [VS Code: Rekommenderade inställningar](vscode-settings.md)
