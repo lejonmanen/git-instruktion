@@ -46,3 +46,13 @@ Det värsta som finns är att scrolla i sidled. Vi kan tala om för editorn att 
 Man kan även aktivera eller stänga av *word wrap* för en fil i taget via menyn `View > Toggle Word Wrap`.
 
 ![VS Code: temporary word wrap](img/vscode/word-wrap-temporary.png)
+
+### Formatering / Autoformattering
+
+### Formatering manuellt
+![image](https://user-images.githubusercontent.com/100321633/165059967-8c3aa504-0375-41fa-9d5a-30d90f81eb80.png)
+
+### Automatiskt formatering vid sparning av fil
+![image](https://user-images.githubusercontent.com/100321633/165059986-8f767022-50e4-4a6e-ab0b-ad4744ad3687.png)
+
+
