@@ -16,3 +16,6 @@ Guider till git och relaterade ämnen. Skrivet i första hand för studenter på
 1. [Skriva bra kod](write-good-code.md#att-skriva-bra-kod)
 1. [Felsökning](find-errors.md#fel-i-koden)
 1. [VS Code: Rekommenderade inställningar](vscode-settings.md#vs-code-rekommenderade-inställningar)
+
+### När man kör fast
+1. [Att fråga om hjälp](get-help.md#be-om-hjälp)
