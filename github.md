@@ -114,8 +114,8 @@ När vi arbetar tillsammans med andra behöver vi sätt att synkronisera vårt a
 **Det går till så här:**
 
 1. Skapa en ny branch, för att jobba med en ny feature: `git checkout -b feature/feature-name`
-1. Jobba med koden, gör commits
-1. När du är färdig: pusha till GitHub
+1. Jobba med koden, gör commits: `git commit -m "Added new feature to app`
+1. När du är färdig: pusha till GitHub:
 1. Gå till din branch i repot på GitHub. GitHub märker automatiskt att din branch har ändringar, som inte finns i main. Det dyker upp en button du kan klicka på för att skapa en pull request.
 ![Pull Request](img/gh-pull-request.png)
 1. Det går också att skapa en pull request via meny-alternativet "Pull requests"
