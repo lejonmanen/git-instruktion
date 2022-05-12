@@ -112,11 +112,14 @@ När vi arbetar tillsammans med andra behöver vi sätt att synkronisera vårt a
 + kontrollera ny kod efter buggar, innan den läggs in i main-branchen
 
 **Det går till så här:**
-1. Skapa en ny branch, för att jobba med en ny feature: `git branch feature-name`
-1. Jobba med koden, gör commits
-1. När du är färdig: pusha till GitHub
+
+1. Skapa en ny branch, för att jobba med en ny feature: `git checkout -b feature/feature-name`
+1. Jobba med koden, gör commits: `git commit -m "Added new feature to app`
+1. När du är färdig: pusha till GitHub: `git push origin feature/feature-name`
 1. Gå till din branch i repot på GitHub. GitHub märker automatiskt att din branch har ändringar, som inte finns i main. Det dyker upp en button du kan klicka på för att skapa en pull request.
+![Pull Request Button](img/github-pr-button.jpg)
 1. Det går också att skapa en pull request via meny-alternativet "Pull requests"
+![Pull Request Page](img/gh-pull-request-create.jpg)
 1. De som äger eller är *collaborators* för repot behöver nu ta ställning till om de vill godkänna din pull request.
 1. Efter att en pull request är godkänd kan man ta bort branchen.
 
