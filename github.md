@@ -90,7 +90,7 @@ git log --oneline -10
 ```
 
 Vi kan göra samma sak på GitHub.
-![Commit hiostory](img/gh-commit-history.png)
+![Commit history](img/gh-commit-history.png)
 
 *Obs! Main är förvald branch. Om du vill se historik på andra branches behöver du byta.*
 

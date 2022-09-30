@@ -7,6 +7,9 @@ Guider till git och relaterade ämnen. Skrivet i första hand för studenter på
 1. [Konfliktlösning](git-merge.md#git)
 1. [Ångra och återställa](git-undo.md#ångra-och-återställa)
 
+### Arbeta i team
+1. [Grupparbete](group.md#grupparbete)
+
 ### Allmän datorkunskap
 1. [Terminalen](terminalen.md#terminalen)
 1. [GitHub](github.md#att-arbeta-med-frontend)
