@@ -1,4 +1,4 @@
-[Innehåll](README.md)
+[Innehåll](../README.md)
 
 Tillbaka till del 2: [Workflow](git-workflow.md)
 

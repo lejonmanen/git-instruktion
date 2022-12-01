@@ -1,4 +1,4 @@
-[Innehåll](README.md)
+[Innehåll](../README.md)
 
 Tillbaka till del 3: [Konfliktlösning](git-merge.md)
 

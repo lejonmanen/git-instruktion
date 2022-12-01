@@ -1,3 +1,5 @@
+[Innehåll](../README.md)
+
 ## VS Code: rekommenderade inställningar
 
 Det är viktigt att konfigurera din editor så att du kan arbeta effektivt i den. Här är några starkt rekommenderade inställningar för VS Code. Du kan göra samma inställningar i andra editorer också, men menyerna ser lite annorlunda ut.

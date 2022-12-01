@@ -1,4 +1,4 @@
-[Innehåll](README.md)
+[Innehåll](../README.md)
 
 *Uppdaterad HT 2021*
 

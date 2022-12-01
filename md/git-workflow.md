@@ -1,4 +1,4 @@
-[Innehåll](README.md)
+[Innehåll](../README.md)
 
 Tillbaka till del 1: [Kommandoreferens](git.md)
 

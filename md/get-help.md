@@ -1,4 +1,4 @@
-[Innehåll](README.md)
+[Innehåll](../README.md)
 
 # Be om hjälp
 I den här ordningen: sökning - klasskamrater - handledare - lärare.
