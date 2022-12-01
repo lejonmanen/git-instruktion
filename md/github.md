@@ -34,11 +34,11 @@ npm init -y
 ### Skapa repo på GitHub
 Skapa ett nytt repository. Ge det ett namn (gärna samma som mappen det ligger i på din dator) och fyll i lämpliga inställningar.
 
-![Skapa nytt repo](img/gh-create-repo-0.png)
-![Skapa nytt repo](img/gh-create-repo-1.png)
+![Skapa nytt repo](../img/gh-create-repo-0.png)
+![Skapa nytt repo](../img/gh-create-repo-1.png)
 
 ### Koppla ihop dina båda repon
-![Skapa nytt repo](img/gh-create-repo-2.png)
+![Skapa nytt repo](../img/gh-create-repo-2.png)
 
 Nu när du har ett nytt, tomt repo på GitHub få du förslag på hur du ska lägga till filer. Scrolla ner till alternativet "existing repository" och skriv i terminalen. Exempel:
 
@@ -90,7 +90,7 @@ git log --oneline -10
 ```
 
 Vi kan göra samma sak på GitHub.
-![Commit history](img/gh-commit-history.png)
+![Commit history](../img/gh-commit-history.png)
 
 *Obs! Main är förvald branch. Om du vill se historik på andra branches behöver du byta.*
 
@@ -98,10 +98,10 @@ Vi kan göra samma sak på GitHub.
 ### Ändra en fil online
 Det går att ändra en fil direkt på GitHub. Men varje ändring skapar en egen commit. Använd bara den här metoden för små ändringar.
 
-![Ändra fil 1](img/gh-edit-file.png)
+![Ändra fil 1](../img/gh-edit-file.png)
 
 Klicka på pennan för att börja ändra i filen. Om du inte skriver ett commit-meddelande kommer GitHub välja `"Edit filens-namn"`. Du kan även byta namn på filen.
-![Ändra fil 2](img/gh-edit-file-2.png)
+![Ändra fil 2](../img/gh-edit-file-2.png)
 
 ---
 ### Pull request
@@ -117,9 +117,9 @@ När vi arbetar tillsammans med andra behöver vi sätt att synkronisera vårt a
 1. Jobba med koden, gör commits: `git commit -m "Added new feature to app`
 1. När du är färdig: pusha till GitHub: `git push origin feature/feature-name`
 1. Gå till din branch i repot på GitHub. GitHub märker automatiskt att din branch har ändringar, som inte finns i main. Det dyker upp en button du kan klicka på för att skapa en pull request.
-![Pull Request Button](img/github-pr-button.jpg)
+![Pull Request Button](../img/github-pr-button.jpg)
 1. Det går också att skapa en pull request via meny-alternativet "Pull requests"
-![Pull Request Page](img/gh-pull-request-create.jpg)
+![Pull Request Page](../img/gh-pull-request-create.jpg)
 1. De som äger eller är *collaborators* för repot behöver nu ta ställning till om de vill godkänna din pull request.
 1. Efter att en pull request är godkänd kan man ta bort branchen.
 

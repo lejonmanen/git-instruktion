@@ -14,7 +14,7 @@
 Programmering handlar om att lösa problem. Många problem kan verka stora och svåra vid första anblicken. Det är viktigt att man arbetar *metodiskt och strukturerat*.
 
 #### Top down
-![Pussla](img/jigsaw.jpg)
+![Pussla](../img/jigsaw.jpg)
 
 Top down-metoden börjar med att se helheten, the big picture. Sedan delar man in det stora problemet i flera mindre delar. Hur gör du för att lösa ett stort pussel?
 + samlar ihop kantbitarna och sätter ihop dem
@@ -28,13 +28,13 @@ När man blir klar med delarna, sätter man samma dem. Detta kallas ibland "divi
 ---
 
 #### Bottom up
-![Bottom up med Legobitar](img/lego-2.jpg)
+![Bottom up med Legobitar](../img/lego-2.jpg)
 
 Använd det du har. Börja med de minsta beståndsdelarna. Kombinera dem för att skapa större strukturer.
 
 Använd variabler, if-satser och loopar för att bygga funktioner. Använd funktionerna för att bygga nya funktioner. Så småningom arbetar man sig upp till målet...
 
-![Star Wars Lego](img/lego.jpeg)
+![Star Wars Lego](../img/lego.jpeg)
 
 ---
 
@@ -49,7 +49,7 @@ En dator gör det du säger, inte det du vill. Man måste lära sig "prata dator
 
 En **algoritm** är en lista med instruktioner. Vi kan också se det som en *vägbeskrivning*. Datorn utför instruktionerna efter varandra i en rasande fart. Kom ihåg att datorn är dum men snabb. Det är viktigt att vara exakt. Om instruktionerna är oklara kommer datorn att göra fel saker.
 
-![Vägbeskrivning](img/directions.png)
+![Vägbeskrivning](../img/directions.png)
 
 
 ## Att följa en specifikation
@@ -65,7 +65,7 @@ Det vanligaste är att du som utvecklare jobbar tillsammans med andra i ett team
 + programmering är ett maratonlopp, inte en spurt
 + största delen av tiden lägger vi på att läsa kod. Lägg mer tid på att skriva den bra, så sparar du tid i längden!
 
-![Actual time spent programming](img/time-spent-programming.png)
+![Actual time spent programming](../img/time-spent-programming.png)
 
 ---
 

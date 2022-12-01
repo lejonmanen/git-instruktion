@@ -39,11 +39,11 @@ antingen Git Bash (följer med Git) eller Cmder.
 ---
 ### 2 Exempel - terminaler
 
-![cmd](img/cmd.png)
+![cmd](../img/cmd.png)
 Cmd/Kommandotolken är Windows inbyggda terminal. Den har inga funktioner som hjälper utvecklare.
 
 ---
-![git bash](img/git-bash.png)
+![git bash](../img/git-bash.png)
 Git Bash är en bra, kompetent terminal som följer med när man installerar Git.
 
 Gul färg visar vilken mapp man befinner sig i för tillfället.
@@ -53,7 +53,7 @@ Ljusblå färg dyker upp om du befinner dig i ett git-repository. Den visar vilk
 Det vita dollartecknet på raden efter kallas för *prompt*. Det är där man skriver in kommandon.
 
 ---
-![cmder](img/cmder.png)
+![cmder](../img/cmder.png)
 Cmd (Commander) är en mycket kompetent terminal som baseras på bash. Precis som git bash visar den vilken mapp man befinner sig i. Git-branchen visas med röd färg. Prompten är den grekiska bokstaven "lambda".
 
 ---
@@ -111,7 +111,7 @@ cd ../javascript2
 Vissa filer eller mappar kan vara *dolda*. Det innebär att de inte syns varken i Finder eller Explorer, eller när du skriver `ls`. Unix-baserade system brukar göra filer som börjar med punkt osynliga. Exempel: `.git`-mappen.
 
 Göra dolda filer synliga med explorer:
-![Visa dolda filer](img/explorer-hidden-files.png)
+![Visa dolda filer](../img/explorer-hidden-files.png)
 
 
 
@@ -121,7 +121,7 @@ Göra dolda filer synliga med explorer:
 
 **Övning 4**: öppna en terminal inuti din mapp "terminalen". (Tips! Prova att högerklicka på mappen i Explorer.)
 
-![Högerklicka på en mapp](img/right-click-open-terminal.png)
+![Högerklicka på en mapp](../img/right-click-open-terminal.png)
 
 ---
 

@@ -1,4 +1,4 @@
-[Innehåll](README.md)
+[Innehåll](../README.md)
 
 # Deploy
 
@@ -57,11 +57,11 @@ vue create your-app-name
 ---
 
 #### 2 Skapa repo på GitHub
-![Skapa publikt repo](img/gh-create-repo-1.png)
+![Skapa publikt repo](../img/gh-create-repo-1.png)
 
 *Skapa ett nytt repo på GitHub. Tips: det är praktiskt om du använder samma namn som i steg 1.*
 
-![Koppla ihop med lokalt repo](img/gh-create-repo-2.png)
+![Koppla ihop med lokalt repo](../img/gh-create-repo-2.png)
 
 *Koppla ihop ditt nya GitHub-repo med repot på din dator.*
 
@@ -101,10 +101,12 @@ Filen `package.json` är som standard konfigurerad för enkla frontend-appar. Du
 
 ---
 #### 5 Inställningar på Heroku (hemligheter)
+*Uppdatering december 2022: Heroku har inte längre en gratisplan. Ett bra alternativ är [www.render.com](https://render.com/).*
+
 Skapa en ny app på Heroku: [www.heroku.com](https://www.heroku.com)
 
 Kontrollera att *Heroku Git* är valt, under Deploy-fliken.
-![Deploy should use Heroku Git](img/3-deploy-settings.png)
+![Deploy should use Heroku Git](../img/3-deploy-settings.png)
 
 Installera Heroku CLI. Skriv i terminalen:
 ```bash
@@ -140,7 +142,7 @@ private-key.json     <-- namnet på filen med inloggningsuppgifter
 ```
 
 Kopiera *innehållet* i filen och klistra in det som `VALUE` i en miljövariabel på Heroku, med namnet `PRIVATE_KEY`:
-![Privat miljövariabel på Heroku](img/5-settings-config-vars.png)
+![Privat miljövariabel på Heroku](../img/5-settings-config-vars.png)
 
 Ändra sedan i koden. Exemplet förutsätter att du har en JSON-fil med hemlig information i samma mapp som server.js:
 ```js
