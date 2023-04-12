@@ -14,11 +14,13 @@ Guider till git och relaterade ämnen. Skrivet i första hand för studenter på
 1. [Terminalen](md/terminalen.md#terminalen)
 1. [GitHub](md/github.md#att-arbeta-med-frontend)
 1. [Deploy](md/deploy.md#deploy) (publicera JavaScript fullstack-app online)
+1. [Kortkommandon](md/shortcuts.md) (Windows)
 
 ### Programmering
 1. [Skriva bra kod](md/write-good-code.md#att-skriva-bra-kod)
 1. [Felsökning](md/find-errors.md#fel-i-koden)
 1. [VS Code: Rekommenderade inställningar](md/vscode-settings.md#vs-code-rekommenderade-inställningar)
+1. [Nästa steg - clean code](md/clean-code-summary.md#nästa-steg)
 
 ### När man kör fast
 1. [Att fråga om hjälp](md/get-help.md#be-om-hjälp)
