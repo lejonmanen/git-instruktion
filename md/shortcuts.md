@@ -2,7 +2,7 @@
 
 ## Kortkommandon
 
-*Denna guide går igenom några vanliga kortkommandon, som fungerar i de flesta Window-applikationer. Många kortkommandon finns i Mac-version också. Prova att byta ut "Control" mot "Command".*
+*Denna guide går igenom några vanliga kortkommandon, som fungerar i de flesta Window-applikationer; samt specifika kommandon för VS Code. Många kortkommandon finns i Mac-version också. Prova att byta ut "Control" mot "Command".*
 
 Poängen med kortkommandon är att man kan göra saker utan att använda musen. För användare som inte kan använda en mus är detta helt avgörande. För andra användare är kortkommandon ett sätt att arbeta snabbare och effektivare.
 
@@ -40,3 +40,14 @@ Exempel: `Ctrl + N`. Håll nere Ctrl (control), tryck ner N, släpp upp N, släp
 |`Alt + Tab`       |Växla till senast använda app. Så länge du håller nere Alt kan du "tabba" flera gånger, för att bläddra mellan tidigare appar. |
 |`Win + Tab`       |Se alla virtuella skrivbord. Ett virtuellt skrivbord är en ny yta, där du kan ha andra appar igång. |
 |`Ctrl + Win + vänster/högerpil` |Använd vänster- eller högerpil för att snabbt byta mellan virtuella skrivbord. |
+
+
+### Visual Studio Code
+
+|Kommando |Beskrivning |
+|---------|------------|
+|`Ctrl + vänster/högerpil` |Hoppa ett ord till vänster eller höger. Kan kombineras med Shift för att markera ord. |
+|`Alt + uppåt/nedåtpil` |Flytta en rad eller markering uppåt eller nedåt. |
+|`F2` |Byt namn på en "symbol" i hela projektet. Fungerar med CSS-klasser och variabler. |
+|`Ctrl + '` |Toggla kommentar på markerade rader. |
+|`Ctrl + Shift + P` |Visa "Command Palette". Här kan du söka bland alla kommandon som finns i VS Code.|
