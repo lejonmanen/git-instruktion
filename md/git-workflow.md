@@ -40,7 +40,7 @@ Nu är det dags att börja jobba med sökfunktionen. Ann byter branch från *mai
 
 ```bash
 # Byt till rätt branch
-git checkout show-room-feature
+git switch show-room-feature
 
 git status
 # Git säger:
@@ -99,7 +99,7 @@ cd mappens-namn/
 git status
 # Vänta nu! Git rapporterar att branchen är "main"
 # Zeke måste byta branch innan han börjar jobba
-git checkout book-room-feature
+git switch book-room-feature
 ```
 
 Zeke ändrar i index.html och lägger till en ny CSS-fil. Sedan ska han committa det till GitHub, så att Ann kan se ändringarna.
