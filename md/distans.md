@@ -1,5 +1,14 @@
 [Innehåll](../README.md)
 
+*Uppdaterad december 2023*
+
+1. [Utrustning](#utrustning)
+1. [Ställa frågor](#ställa-frågor)
+1. [Skärmdelning](#skärmdelning)
+1. [Leda möten](leda-möten)
+
+---
+
 # Videomöten
 
 Videomöten har blivit allt vanligare. För att ha produktiva möten, är det viktigt att vi är överens om vissa förhållningsregler.
@@ -32,7 +41,9 @@ Från mycket tidig ålder har vi tränats i att läsa människor. Vi registrerar
 |Grupparbete: möte      |Kamera på. |
 |Grupparbete: övrig tid |Gruppen bestämmer. |
 |Presentation av arbete |De som presenterar ska ha kamera på. |
-|Genomgång med lärare   |Kamera av, utom för läraren. |
+|Genomgång med lärare   |Kamera av rekommenderas. |
+
+*En del lärare tycker att det blir för kaotiskt att alla har på sina kameror och det kan vara distraherande. Andra tycker att kamerorna ger en bättre kontakt - när man sitter i klassrummet går det inte att gömma sig, så varför skulle man behöva göra det online?*
 
 ---
 
@@ -45,11 +56,40 @@ När man är många på ett möte så kan det bli rörigt om det är flera som p
 
 **Räcka upp handen är att föredra i större grupper**. Ofta kan läraren se i vilken ordning man räckt upp handen, och kan välja när det blir ett lämpligt tillfälle att släppa in frågan.
 
-|Programvara |Bild |
-|-|-|
-|Google Meet     |![Räck upp handen: Google Meet](../img/hand-meet.png) |
-|Zoom            |![Räck upp handen: Zoom](../img/hand-zoom.png) |
-|Microsoft Teams |![Räck upp handen: Microsoft Teams](../img/hand-teams.png) |
+|Programvara     |Ikon |Bild |
+|----------------|-----|-----|
+|Google Meet     |Hand |![Räck upp handen: Google Meet](../img/conference/hand-meet.png) |
+|Zoom            |Reaktioner |![Räck upp handen: Zoom](../img/conference/hand-zoom.png) |
+|Microsoft Teams |Hand |![Räck upp handen: Microsoft Teams](../img/conference/hand-teams.png) |
+
+---
+
+## Skärmdelning
+
+Alla videomötesprogram har funktioner för att dela skärm. Du kan välja om du vill dela *ett fönster* eller *hela den synliga skärmen*. Om du har mer än en skärm ansluten till datorn, måste du välja vilken skärm du ska dela.
+
+Vissa program kan visa olika ikoner beroende på om man är mötesledare eller inte.
+
+Tänk på att välja hela skärmen om du ska visa vad du kodar, eftersom man ofta byter mellan koden (VS Code) och webbläsaren.
+
+|Programvara     |Ikon |Bild |
+|----------------|-----|-----|
+|Discord         |Skärm med pil, "Share your screen" |![share screen: Discord](../img/conference/share-discord.png) |
+|Google Meet     |Ruta med pil upp, "present now" |![share screen: Meet](../img/conference/share-meet.png) |
+|Zoom            |Ruta med pil upp, "Dela skärm" |![share screen: Zoom](../img/conference/share-zoom.png) |
+|Microsoft Teams |Ruta med pil upp, "Dela" |![share screen: Teams](../img/conference/share-teams.png) |
+
+(Minnesregel: tänk dig att du delar din skärm "upp i molnet".)
+
+
+### Projektor
+
+Om du ska dela din skärm med en projektor behöver man gå till bildskärmsinställningarna. På Windows kan du välja mellan att *Duplicera* din skärm, eller att *Utvidga* den.
+
+**Duplicera** är samma sak som att spegla. Du skickar en exakt kopia av datorns skärm till projektorn. Om du använder denna finns det en risk att du inte kan se annat än det som presenteras, till exempel meddelanden i videoprogrammets chat eller uppräckta händer.
+
+**Utvidga** innebär att du skapar en ny virtuell skärm. Du kan behandla den som om du hade två fysiska skärmar bredvid varandra, och dra över fönster mellan dem. Använd denna för bästa kontroll.
+
 
 ---
 
