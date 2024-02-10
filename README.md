@@ -26,3 +26,4 @@ Guider till git och relaterade ämnen. Skrivet i första hand för studenter på
 
 ### När man kör fast
 1. [Att fråga om hjälp](md/get-help.md#be-om-hjälp)
+1. [Använda AI](md/ai.md#ai)

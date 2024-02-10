@@ -17,9 +17,9 @@ Alla företag tillämpar de **agila metoderna** till olika hög grad. Man gör d
 Det [Agila manifestet](https://agilemanifesto.org/) talar om vad agile är.
 
 ![Agile is](../img/agile.png)
-> Agile is a **mindset** 
-> Described by **4 values** 
-> Defined by **12 principles** 
+> Agile is a **mindset**
+> Described by **4 values**
+> Defined by **12 principles**
 > Manifested through an **unlimited** number of **practices**.
 
 
@@ -44,6 +44,8 @@ Ett team som följer *scrum* arbetar i *sprintar*. En *sprint* kan vara olika l�
 
 Normal storlek på ett team brukar vara 3-8 personer. Ett scrum-team har olika *roller* och *ritualer*.
 
+Öva på scrum-ceremonier här: [Agile helper](https://lejonmanen.github.io/agile-helper/)
+
 #### Roller
 | Roll | Uppgift |
 |------|---------|
@@ -51,9 +53,9 @@ Normal storlek på ett team brukar vara 3-8 personer. Ett scrum-team har olika *
 | Scrum master | Ser till att teamet följer scrum. Leder möten. Ser till att eventuella hinder för teamet blir undanröjda - men måste inte göra det själv. |
 | Utvecklare | Alla i teamet är utvecklare. |
 
-### Ritualer
-| Ritual | När | Innehåll |
-|--------|-----|----------|
+### Ceremoni
+| Ceremoni | När | Innehåll |
+|----------|-----|----------|
 | Sprint planning       | Det första som händer i en sprint. | Prioritering och tidsuppskattning av uppgifter i *product backlog*. Målet är att skapa en *sprint backlog* med det som teamet tror sig hinna med under sprinten. |
 | Daily scrum / standup | Först på morgonen, varje dag. | 5-10 minuter där alla i teamet står upp och svarar på frågorna: <br> 1. Vad gjorde du sedan förra standup? <br> 2. Vad ska du göra till nästa? <br> 3. Finns det något som hindrar dig? |
 | Sprint review         | Sist i en sprint | Teamet demonstrerar vad man hunnit med för produktägaren. |
