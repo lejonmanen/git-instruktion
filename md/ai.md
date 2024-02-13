@@ -84,21 +84,3 @@ Det finns goda möjligheter att ta hjälp av AI i början av en utbildning. Men 
 
 ## GitHub Copilot
 Genom att indexera (läsa) all kod som laddats upp på GitHub i publika repositories, har Microsoft skapat en AI-tjänst till Visual Studio Code. Medan du skriver kan AI föreslå hur slutet på raden borde bli, baserat på koden du tidigare skrivit och hur liknande kod brukar se ut på GitHub.
-
-
----
-
-## Tips till lärare
-Här är exempel på en formulering om AI, som man kan använda till examinationer.
-
-> Det är inte tillåtet att låta AI generera hela kodfiler.
->
-> Det är tillåtet att använda AI för att:
-> + skapa realistisk text och testdata
-> + bolla idéer (om du inte har tillgång till klasskamrater, lärare eller handledare)
-> + hitta fel i din kod
-> + lösa specifika problem
-
-Med detta sagt så finns det programmeringsspråk som kan generera en hel del "boilerplate" automatiskt.
-
-I framtiden kan det finnas tjänster som kan kontrollera om kod skrivits av AI. Men i dagsläget är nog enda sättet att vara säker, att låta studenten göra en muntlig redovisning, där du kan kontrollera om man förstår den kod man har skrivit.
