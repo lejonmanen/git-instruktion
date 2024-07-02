@@ -1,6 +1,6 @@
 [Innehåll](../README.md)
 
-*Uppdaterad december 2023*
+*Uppdaterad juli 2024*
 
 1. [Utrustning](#utrustning)
 1. [Ställa frågor](#ställa-frågor)
@@ -67,6 +67,8 @@ När man är många på ett möte så kan det bli rörigt om det är flera som p
 ## Skärmdelning
 
 Alla videomötesprogram har funktioner för att dela skärm. Du kan välja om du vill dela *ett fönster* eller *hela den synliga skärmen*. Om du har mer än en skärm ansluten till datorn, måste du välja vilken skärm du ska dela.
+
+**Obs! Om du använder MacOS** måste du ändra en inställning för varje program som ska kunna dela skärm. [Läs mer här](mac-screen-share.md).
 
 Vissa program kan visa olika ikoner beroende på om man är mötesledare eller inte.
 

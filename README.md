@@ -11,6 +11,7 @@ Guider till git och relaterade ämnen. Skrivet i första hand för studenter på
 1. [Grupparbete](md/group.md#grupparbete)
 1. [Att arbeta agilt](md/agile.md#att-arbeta-agilt)
 1. [Policy för distansmöten](md/distans.md#videomöten)
+1. [Dela skärm som MacOS-användare](md/mac-share-screen.md#dela-skärm-som-macos-användare)
 
 ### Allmän datorkunskap
 1. [Terminalen](md/terminalen.md#terminalen)
