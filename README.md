@@ -1,6 +1,10 @@
 # Git instruktion
 Guider till git och relaterade ämnen. Skrivet i första hand för studenter på yrkeshögskola. Det mesta gäller för alla programmeringsutbildningar, men kodexempel är i första hand JavaScript.
 
+### Studieteknik
+1. [Att fråga om hjälp](md/get-help.md#be-om-hjälp)
+1. [Använda AI](md/ai.md#ai)
+
 ### Git
 1. [Git](md/git.md#git)
 1. [Git workflow](md/git-workflow.md#git)
@@ -24,7 +28,4 @@ Guider till git och relaterade ämnen. Skrivet i första hand för studenter på
 1. [Felsökning](md/find-errors.md#fel-i-koden)
 1. [VS Code: Rekommenderade inställningar](md/vscode-settings.md#vs-code-rekommenderade-inställningar)
 1. [Nästa steg - clean code](md/clean-code-summary.md#nästa-steg)
-
-### När man kör fast
-1. [Att fråga om hjälp](md/get-help.md#be-om-hjälp)
-1. [Använda AI](md/ai.md#ai)
+1. [JavaScript översikt](md/js-overview.md)
