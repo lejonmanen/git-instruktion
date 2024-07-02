@@ -2,6 +2,7 @@
 Guider till git och relaterade ämnen. Skrivet i första hand för studenter på yrkeshögskola. Det mesta gäller för alla programmeringsutbildningar, men kodexempel är i första hand JavaScript.
 
 ### Studieteknik
+1. [Studieteknik](md/studieteknik.md#Studieteknik)
 1. [Att fråga om hjälp](md/get-help.md#be-om-hjälp)
 1. [Använda AI](md/ai.md#ai)
 
