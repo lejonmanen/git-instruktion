@@ -2,20 +2,20 @@
 
 *Uppdaterad juli 2024*
 
-1. [Studieteknik](#studieteknik)
-1. [Framgångsfaktorer](#framgångsfaktorer)
-1. [Lägg tiden](#lägg-tiden)
-1. [Lära tillsammans](#lära-tillsammans)
-1. [Anteckna och repetera](#anteckna-och-repetera)
-1. [Resurser om studieteknik](#resurser-om-studieteknik)
+1. [Studieteknik](#1-studieteknik)
+1. [Framgångsfaktorer](#2-framgångsfaktorer)
+1. [Lägg tiden](#3-lägg-tiden)
+1. [Lära tillsammans](#4-lära-tillsammans)
+1. [Anteckna och repetera](#5-anteckna-och-repetera)
+1. [Resurser om studieteknik](#6-resurser-om-studieteknik)
 
 ---
 
-# Studieteknik
+# 1. Studieteknik
 
 För att lyckas med dina studier behöver du arbeta målmedvetet. Om det var ett tag sedan du studerade senast, kan det vara bra att tänka igenom och planera hur du får ut så mycket som möjligt av din studietid.
 
-## Framgångsfaktorer
+## 2. Framgångsfaktorer
 
 1. Lägg tiden
 1. Lära tillsammans
@@ -25,27 +25,28 @@ Se även [Att arbeta i grupp](group.md#grupparbete).
 
 ---
 
-### Lägg tiden
-Läraren planerar varje kurs utifrån att man ska lägga 40 timmar per vecka. (vid heltidsstudier) Det normala är ca 15 timmar lärarledd undervisning i veckan. Resterande 25 timmar är det självstudier. Du har frihet att välja *när* du lägger tiden. Men vill du bli duktig så måste du lägga tiden.
+### 3. Lägg tiden
+Läraren planerar varje kurs utifrån att man ska lägga 40 timmar per vecka. (vid heltidsstudier) En mindre del av dessa är lärarledd undervisning. Resterande timmar är det självstudier. Du har frihet att välja *när* du lägger tiden. Men vill du bli duktig så måste du investera tid.
 
-En del studenter försöker arbeta deltid samtidigt som studierna. Erfarenheten är att det är svårare än man tror. Du behöver kunna koppla av efter studierna, för att orka ända till slutet. Utbildningen är krävande, var snäll mot dig själv och gör plats i kalendern, så att du kan prioritera skolan.
+En del studenter försöker arbeta deltid samtidigt som studierna. Erfarenheten är att det är svårare än man tror. Du behöver kunna koppla av efter studierna, för att orka ända till slutet. Utbildningen är krävande! Var snäll mot dig själv och gör plats i kalendern, så att du kan prioritera skolan.
 
 Det är ofta mycket lättare att studera i skolan. Du kan:
-1. Plugga tillsammans med klasskamrater
-1. Fråga läraren direkt
-1. Lättare fokusera på studierna i skolan än hemma
+1. Plugga tillsammans med klasskamrater,
+1. Diskutera och få feedback på kod - från klasskamrater och lärare,
+1. Fråga läraren direkt,
+1. Lättare fokusera på studierna i skolan än hemma.
 
 
-### Lära tillsammans
+### 4. Lära tillsammans
 Dina klasskamrater är ditt första yrkesnätverk inom ämnet för utbildningen. Ta vara på varandra! Ni är i samma situation och alla behöver vi ibland någon att prata med som förstår vår situation. Ni kan bland annat hjälpa varandra med LIA.
 
 Grupparbeten kan vara besvärliga, särskilt när man har olika ambitionsnivå inom gruppen. Men också oerhört lärorika. För industrin är det mycket viktigt att man kan arbeta i projekt tillsammans med andra. Alla utbildningar innehåller moment som handlar om hur man arbetar i grupp, med "agila metoder". Normala grupper har ingen ledare, utan delar på ledarskapet. Det är viktigt att alla tar ett gemensamt ansvar.
 
-Discord är det populäraste verktyget för kommunikation inom klasser. Se till att lära dig grunderna för hur man chattar och hänger i röstkanaler. Om du hade varit i skolan, hade det varit helt normalt att andra hade sett dig. I synnerhet när du pratar med dem. Varför skulle det vara annorlunda när man träffas online?
+För att kommunicera inom klassen brukar man använda verktyg som Discord, Slack, Teams med mera. (Har ni inget är det både lätt och gratis att sätta upp en Discord-server för klassen.) Se till att lära dig grunderna för hur man chattar, hänger i röstkanaler, slår på webbkameran och delar skärm. Om du hade varit i skolan, hade det varit helt normalt att andra hade sett dig. I synnerhet när du pratar med dem. Varför skulle det vara annorlunda när man träffas online?
 
 Ha som vana att alltid slå på kameran när du samtalar med en eller flera klasskamrater. Mycket av vår kommunikation går genom minspel och andra signaler. Att kunna se den man pratar med, hjälper till med att undvika missförstånd!
 
-### Anteckna och repetera
+### 5. Anteckna och repetera
 När läraren håller en genomgång med "livekod" kan det gå undan. Lärare ger alltid tillgång till hela koden i efterhand, så det är viktigare att fokusera på att du hänger med, än att skriva av koden. Du kommer få möjlighet att testa själv senare. Om du tycker att det går för fort kan du ta upp det direkt med läraren, eller i de klassmöten ni kommer ha regelbundet.
 
 Anteckna alltid under genomgångar. Gärna med papper och penna - det går ofta fortare och det är lättare att fokusera än på en datorskärm.
@@ -60,7 +61,7 @@ För att komma ihåg det man gått igenom behöver du metodiskt repetera materia
 Människan har ett närminne och ett långtidsminne. Det man går igenom under en lektion hamnar i närminnet. Men för att det ska flyttas över i långtidsminnet, behöver man repetera det mer än en gång. Varje repetition förstärker inlärningen. Forskning har visat att första repetitionen behöver vara i princip direkt efter genomgången. Ju mer man har repeterat, desto längre kan man vänta till nästa repetition.
 
 
-### Resurser om studieteknik
+### 6. Resurser om studieteknik
 1. [Studieteknik(spellista)](https://youtube.com/playlist?list=PLA09CC1B5671827AD&si=bsDyzGoHjNuHOy0w) - KTH Learning Lab, många korta men mycket användbara avsnitt
     + Att ta anteckningar (2:41)
     + Att repetera (3:25)
@@ -82,4 +83,4 @@ Människan har ett närminne och ett långtidsminne. Det man går igenom under e
 1. [Hur lång tid tar de att lära sig programmera? (blogg, 8 minuter)](https://www.lucasrosvall.se/blogg/tid-for-att-koda/)
     + Lucas Rosvall svarar på flera frågor om hur det är att lära sig programmering.
 
-[Till toppen av sidan](#studieteknik)
+[Till toppen av sidan](#1-studieteknik)
