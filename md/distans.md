@@ -19,16 +19,17 @@ Videomöten har blivit allt vanligare. För att ha produktiva möten, är det vi
 Om du har regelbundna distansmöten, är utrustningen kritisk.
 
 ### 1 Stabil internetuppkoppling
-Om du har en långsam eller instabil uppkoppling kommer du att uppleva att du blir utkastad från möten (av programvaran) eller att det inte går att slå på kamera och dela skärm.
+Om du har en långsam eller instabil uppkoppling kommer du att uppleva att du blir utkastad från möten (av programvaran), eller att det inte går att slå på kamera och dela skärm, eller att bilden laggar och ljudet blir sämre.
 
-### 2 Headset
-Använd inte datorns inbyggda mikrofon/högtalare. Ljudet från datorns högtalare kan fångas upp av mikrofonen när du pratar, och de andra deltagarna hör ett eko. Ett headset däremot sitter på öronen och därför läcker inte ljudet.
+### 2 Headset / earbuds
+Använd inte datorns inbyggda mikrofon/högtalare. Ljudet från datorns högtalare kan fångas upp av mikrofonen när du pratar, och de andra deltagarna hör ett eko. Ett headset däremot sitter på öronen och därför läcker inte ljudet. Earbuds fyller samma funktion, så länge som de har en bra mikrofon. Ett bra headset går att hitta för 100-200 kr. Fördelar:
 
 + Du får händerna fria
 + Du undviker eko
 + Ljud från mötet läcker inte ut i din omgivning
 
-![../img/headset.jpg](../img/headset.jpg)
+![Headset](../img/conference/headset.jpg)
+![Earbuds](../img/conference/earbuds.png)
 
 
 ### 3 Kamera
@@ -41,16 +42,17 @@ Från mycket tidig ålder har vi tränats i att läsa människor. Vi registrerar
 |Grupparbete: möte      |Kamera på. |
 |Grupparbete: övrig tid |Gruppen bestämmer. |
 |Presentation av arbete |De som presenterar ska ha kamera på. |
-|Genomgång med lärare   |Kamera av rekommenderas. |
+|Genomgång i stor grupp |Kamera av rekommenderas. |
+|Genomgång i liten grupp|Kamera på rekommenderas. |
 
-*En del lärare tycker att det blir för kaotiskt att alla har på sina kameror och det kan vara distraherande. Andra tycker att kamerorna ger en bättre kontakt - när man sitter i klassrummet går det inte att gömma sig, så varför skulle man behöva göra det online?*
+*En del lärare tycker att det blir för kaotiskt att alla har på sina kameror och det kan vara distraherande. Andra tycker att kamerorna ger en bättre kontakt - när man sitter i klassrummet går det inte att "bli osynlig", så varför skulle man behöva göra det online?*
 
 ---
 
 ## Ställa frågor
-När man är många på ett möte så kan det bli rörigt om det är flera som pratar samtidigt. I ett klassrum kan man ofta lösa det med hjälp av kroppsspråk, så att deltagarna ser när det finns en lucka. När vi har distansmöten kan det vara svårare att komma till tals. Alla videomötesprogram har en "handuppräckningsfunktion". Lär dig använda den. (Tips: glöm inte att ta ner handen efter du har fått ställa din fråga.)
+När man är många på ett möte så kan det bli rörigt om det är flera som pratar samtidigt. I ett klassrum kan man ofta lösa det med hjälp av kroppsspråk, så att deltagarna ser när det finns en lucka. När vi har distansmöten kan det vara svårare att komma till tals. Alla videomötesprogram har en "handuppräckningsfunktion". Lär dig använda den. (Glöm inte att ta ner handen efter du har fått svar på din fråga.)
 
-**Skriva i chatten är alltid okej**, gör det mycket och ofta. Om det verkar som om läraren missar det som skrivits, så kan det vara för att programvaran inte är så bra på att visa det. Då går det bra att räcka upp handen och fråga om man har sett chatten.
+**Skriva i chatten är alltid okej**, gör det mycket och ofta. Om det verkar som om läraren missar det som skrivits, så kan det vara för att programvaran inte är så bra på att visa det. Det är också lätt att missa det som skrivit om det är mycket aktivitet i chatten. Då går det bra att räcka upp handen och fråga om läraren har sett chatten - eller skriva frågan igen.
 
 **Prata rätt ut går bra i en mindre grupp**, så länge alla tycker att det är okej.
 
@@ -76,12 +78,10 @@ Tänk på att välja hela skärmen om du ska visa vad du kodar, eftersom man oft
 
 |Programvara     |Ikon |Bild |
 |----------------|-----|-----|
-|Discord         |Skärm med pil, "Share your screen" |![share screen: Discord](../img/conference/share-discord.png) |
-|Google Meet     |Ruta med pil upp, "present now" |![share screen: Meet](../img/conference/share-meet.png) |
+|Discord         |Skärm med böjd pil, "Share your screen" |![share screen: Discord](../img/conference/share-discord.png) |
+|Google Meet     |Ruta med pil upp, "Present now" |![share screen: Meet](../img/conference/share-meet.png) |
 |Zoom            |Ruta med pil upp, "Dela skärm" |![share screen: Zoom](../img/conference/share-zoom.png) |
 |Microsoft Teams |Ruta med pil upp, "Dela" |![share screen: Teams](../img/conference/share-teams.png) |
-
-(Minnesregel: tänk dig att du delar din skärm "upp i molnet".)
 
 
 ### Projektor

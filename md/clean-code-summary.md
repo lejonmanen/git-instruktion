@@ -1,8 +1,8 @@
 [Innehåll](../README.md)
 
-*Uppdaterad april 2023*
+*Uppdaterad juli 2024*
 
-1. [Vad är clean code?](#vad-är-clean-code)
+1. [Vad är bra kod?](#vad-är-bra-kod)
 
 *Den här artikeln bygger vidare på [Att skriva bra kod](write-good-code#att-skriva-bra-kod).*
 
@@ -19,16 +19,16 @@
 ---
 
 # Nästa steg
-## Vad är clean code
+## Vad är bra kod?
 
-**Clean Code** är en bok från 2009, som handlar om att skriva bra kod. Boken omfattar många mer eller mindre avancerade koncept. Här är en sammanfattning av de viktigaste principerna för den som håller på att lära sig programmering.
+**Clean Code** är en bok från 2009, som handlar om att skriva bra kod. Boken omfattar många mer eller mindre avancerade koncept. Sedan den publicerades har utvecklingen gått framåt, och allt som presenteras är inte relevant. Här följer ett urval av de viktigaste principerna för den som håller på att lära sig programmering.
 
 För att få maximal nytta av den här artikeln bör du vara bekant med *variabler*, *funktioner* och *loopar*.
 
 ---
 
 ## Block och indentering
-Så fort koden börjar ett nytt block, ska innehållet indenteras. Alltså skjutas längre bort från vänsterkanten i din kodeditor. Använd Tab-tangenten en gång för att indentera. Tryck Shift-Tab för att ångra en indentering. Det finns plugins till VS Code som kan sköta det åt dig. (Prettier)
+Så fort koden börjar ett nytt block, ska innehållet indenteras. Alltså skjutas längre bort från vänsterkanten i din kodeditor. Använd Tab-tangenten en gång för att indentera. Tryck Shift-Tab för att ångra en indentering. Det finns plugin till VS Code (Prettier) som kan sköta det åt dig.
 
 ```js
 if( x === 1) {
@@ -36,15 +36,15 @@ if( x === 1) {
 if( y === 2 ) {
 // Inte denna heller
 }
-}  // Vänta nu, vilket block hör den här högerparentesen till?
+}  // Ingen indentering - svårt att se vilket block den här högerparentesen hör till!
 ```
 
 ```js
 if( x === 1) {
-	// Korrekt indenterad, tydligt att koden är inuti if-satsen
-	if( y === 2 ) {
-		// Tydligt att koden är inuti andra if-satsen
-	}
+    // Korrekt indenterad, tydligt att koden är inuti if-satsen
+    if( y === 2 ) {
+        // Tydligt att koden är inuti andra if-satsen
+    }
 }  // Lätt att se att denna hör ihop med första if-satsen
 ```
 
@@ -73,7 +73,9 @@ Ansträng dig för att hitta på bra namn på dina variabler och funktioner. Bra
 
 **Beskriver syftet** gör ett namn om man förstår hur värdet ska användas.
 
-**Lätta att läsa** behöver namnen alltid vara, eftersom den mesta tiden går åt till att läsa kod, inte skriva den. **Lätta att uttala** behöver namnen vara så fort man ska diskutera dem med någon annan. Se [Rubber Duck Debugging](https://sv.wikipedia.org/wiki/Fels%C3%B6kning_i_kod_med_hj%C3%A4lp_av_gummianka).
+**Lätta att läsa** behöver namnen alltid vara, eftersom den mesta tiden går åt till att läsa kod, inte skriva den.
+
+**Lätta att uttala** behöver namnen vara så fort man ska diskutera dem med någon annan. Se [Rubber Duck Debugging](https://sv.wikipedia.org/wiki/Fels%C3%B6kning_i_kod_med_hj%C3%A4lp_av_gummianka).
 
 **Självdokumenterande** namn minskar behovet av kommentarer.
 
@@ -195,7 +197,7 @@ if( !condition3 ) {
 
 ## Allmänna principer
 1. **DRY** = **D**on't **R**epeat **Y**ourself. Använd variabler och funktioner för att undvika att göra samma sak två gånger.
-   
+
 2. **KISS** = **K**eep **I**t **S**imple **S**tupid. Ansträng dig för att hålla koden så enkel som möjligt. Enklare är alltid bättre.
 
 3. **Lämna koden i bättre skick än du hittade den.** Om du går tillbaka in i en kod där du inte varit på ett tag, lägg lite extra tid på att städa i den.

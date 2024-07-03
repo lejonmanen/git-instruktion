@@ -1,6 +1,6 @@
 [Innehåll](README.md)
 
-*Uppdaterad september 2023*
+*Uppdaterad juli 2024*
 
 1. [Att arbeta agilt](#att-arbeta-agilt)
 
@@ -17,9 +17,9 @@ Alla företag tillämpar de **agila metoderna** till olika hög grad. Man gör d
 Det [Agila manifestet](https://agilemanifesto.org/) talar om vad agile är.
 
 ![Agile is](../img/agile.png)
-> Agile is a **mindset**
-> Described by **4 values**
-> Defined by **12 principles**
+> Agile is a **mindset** <br>
+> Described by **4 values** <br>
+> Defined by **12 principles** <br>
 > Manifested through an **unlimited** number of **practices**.
 
 
@@ -35,8 +35,9 @@ I ett IT-projekt kan man använda exempelvis *Trello* och *GitHub Projects*. Ska
 
 |Backlog |In progress |Ready for test |Done |
 |-|-|-|-|
-|En lista med alla *features* som kunden vill ha. Listan prioriteras så att den viktigaste är överst. |När du behöver en ny uppgift, plockar du en från *Backlog* och flyttar över till *In progress*. Nu ser alla teammedlemmar att du arbetar med den uppgiften. Man ska bara arbeta med en uppgift åt gången. |När du är färdig med uppgiften flyttar du den hit. Nu ska någon annan i teamet kontrollera att kraven för uppgiften är uppfyllda. |Om alla krav är uppfyllda flyttas uppgiften till *Done*. När alla uppgifter i backlog har flyttats hit, är projektet färdigt. |
+|En lista med alla *features* som kunden vill ha. Listan prioriteras så att den viktigaste är överst. |När du behöver en ny uppgift, plockar du en från *Backlog* och flyttar över till *In progress*. Sätt ditt namn på den. Nu ser alla teammedlemmar att du arbetar med den uppgiften. |När du är färdig med uppgiften flyttar du den hit. Nu ska någon annan i teamet kontrollera att kraven för uppgiften är uppfyllda. |Om alla krav är uppfyllda flyttas uppgiften till *Done*. När alla uppgifter i backlog har flyttats hit, är projektet färdigt. |
 
+*Tänk på: Man ska bara arbeta med en uppgift åt gången. Det är förbjudet att "reservera" en uppgift, så att ingen annan kan jobba med den.*
 
 ---
 ## Scrum
@@ -44,14 +45,18 @@ Ett team som följer *scrum* arbetar i *sprintar*. En *sprint* kan vara olika l�
 
 Normal storlek på ett team brukar vara 3-8 personer. Ett scrum-team har olika *roller* och *ritualer*.
 
+Scrum lägger till en lista jämfört med Kanban: **sprint backlog**.
+
 Öva på scrum-ceremonier här: [Agile helper](https://lejonmanen.github.io/agile-helper/)
 
 #### Roller
 | Roll | Uppgift |
 |------|---------|
-| Produktägare (product owner) | Teamets kontaktperson hos kunden. Är inte en del av teamet. |
+| Produktägare (PO, product owner) | Teamets kontaktperson hos kunden. Är inte en del av teamet. Lärare eller handledare brukar axla rollen som PO. |
 | Scrum master | Ser till att teamet följer scrum. Leder möten. Ser till att eventuella hinder för teamet blir undanröjda - men måste inte göra det själv. |
 | Utvecklare | Alla i teamet är utvecklare. |
+
+*Tips: låt rollen som scrum master variera under projektet, så att alla i gruppen får träna på att hålla i ceremonierna.*
 
 ### Ceremoni
 | Ceremoni | När | Innehåll |
@@ -78,7 +83,10 @@ När man har ett rött tesfall skriver man tillräckligt med kod för att göra 
 
 Sist **refaktorerar** man koden så att man lämnar den i bra skick.
 
-Testfallen körs varje gång man har gjort en ny version av koden. På så vis kan man se om någon ändring man gör, riskerar att bryta mot ett tidigare krav, genom att det kravets testfall blir röda. Många buggar fångas tidigt och koden får en högre kvalitet.
+Testfallen körs varje gång man har gjort en ny version av koden. På så vis kan man se om någon ändring man gör riskerar att bryta mot ett tidigare krav, genom att det kravets testfall blir röda. Många buggar fångas tidigt och koden får en högre kvalitet.
+
+*Unit test, komponenttest, integrationstest och E2E (end-to-end) test är vanligast inom frontend.*
+
 
 ### Continuous Integration / Deployment
 Det kan kännas riskabelt att publicera en ny version av ett projekt. Ju fler förändringar, desto större risk. CI/CD handlar om att det ska vara lätt att publicera en ny version, och man ska göra det ofta.

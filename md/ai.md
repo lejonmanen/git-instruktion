@@ -1,6 +1,6 @@
 [Innehåll](README.md)
 
-*Uppdaterad februari 2024*
+*Uppdaterad juli 2024*
 
 1. [TL;DR](#tldr)
 1. [Exempel på frågor du kan ställa till en AI](#exempel-på-frågor-du-kan-ställa-till-en-ai)
@@ -15,6 +15,8 @@
 Från och med att ChatGPT släpptes i november 2022 har vi tillgång till en oerhört kraftfull gratis assistent. Andra exempel är Bard och GitHub Copilot. Framöver kommer vi att se exempel på att AI integreras i fler och fler appar.
 
 AI är ett arbetsredskap som du kommer behöva lära dig att använda på bästa sätt. Se det som ett komplement till att googla och läsa artiklar.
+
+Se AI som en *entusiastisk assistent*, som vill hjälpa till, men inte alltid är så noga med vad som är sant.
 
 ## TL;DR
 För dig som är yh-student:
@@ -35,10 +37,12 @@ För dig som är yh-student:
 1. Be aldrig om färdiga lösningar - då lär du dig inte själv
 1. Se AI som en hjälpsam assistent, som dock ofta hittar på saker
 1. Tillämpa källkritik - kontrollera alltid det som en AI genererat
-1. Du kan bygga en fungerande lösning, som använder föråldrad teknik
+1. AI kan föreslå en lösning som tycks fungera, men som använder föråldrad teknik
 
 ---
 ## Exempel på frågor du kan ställa till en AI
+AI-verktygen är utvecklade för att förstå *naturligt språk*. Du kan alltså skriva frågor till dem, precis som du hade chattat med en människa.
+
 1. "Förklara följande kod för mig" (klistra in några rader kod)
 	+ Du kan fortsätta med att ställa följdfrågor: "Ännu enklare tack"
 
@@ -52,15 +56,28 @@ För dig som är yh-student:
 1. "Ge mig en lista med 10 JavaScript-objekt som motsvarar fotbollsspelare. Varje objekt ska ha egenskaperna playerName, age och teamName."
 1. "Kan du sammanfatta den här långa texten?" (klistra in)
 
-*Men kom ihåg att AI kan hallucinera. Kontrollera alltid att svaret/förslaget du får är rimligt!*
+*Men kom ihåg att AI kan hallucinera. (Hallucinationer är när en AI hittar på något som inte är sant.) Kontrollera alltid att svaret/förslaget du får är rimligt!*
+
+### Föra dialog
+Om första frågan inte ger dig det du behöver, kan du fortsätta föra en dialog med AI. Exempel på hur du kan fortsätta fråga för att få mer och mer specifika svar:
+
+> "Hjälp mig göra en loop"
+>
+> "Kan du svara med JavaScript-kod"
+>
+> "Nej, jag menar en for-loop, inte while"
+>
+> "Loopen ska upprepa 10 gånger"
+>
+> "Förklara varför index börjar på 0 i loopen"
 
 
 ---
 
 ## Tänk långsiktigt
-När man använder en AI för att **skapa lösningar**, i stället för **hjälp att själv lösa problem**, så tar man en kortsiktig genväg. AI kan hjälpa dig att klara kurser.
+När man använder en AI för att **skapa hela lösningar**, i stället för **hjälp att själv lösa problem**, så tar man en kortsiktig genväg. AI kan hjälpa dig att klara enskilda kurser.
 
-Men syftet med en YH-utbildning är att du ska lära dig en profession, för att kunna arbeta med det efter utbildningen. Det räcker inte med att klara en kurs. Du måste förstå och lära dig ämnet.
+Men syftet med en YH-utbildning är att du ska lära dig en profession - ett hantverk. För att du ska kunna arbeta med det efter utbildningen räcker det inte med att klara en kurs. Du måste **förstå och lära dig ämnet**.
 
 ---
 
@@ -68,7 +85,7 @@ Men syftet med en YH-utbildning är att du ska lära dig en profession, för att
 ## ChatGPT
 ChatGPT är en språkmodell som använder naturligt språk. Den baserar sig på statistik. Baserat på orden i din fråga, kommer den att slumpa ord som svar, ett i taget, baserat på vad som är mest sannolikt. (något förenklat)
 
-Google Bard bygger på samma teknik, men kan ge lite annorlunda svar.
+Det finns flera språkmodeller, till exempel Google Bard. Den bygger på samma teknik, men kan ge lite annorlunda svar.
 
 ChatGPT har indexerat (läst) större delen av det öppna internet och använder det för att kunna beräkna sannolikheterna. Detta innebär bland annat att:
 
@@ -77,10 +94,12 @@ ChatGPT har indexerat (läst) större delen av det öppna internet och använder
 + Svar som använder gamla, inaktuella tekniker kan dyka upp
 + Texter från inloggningsskyddade webbsidor har inte indexerats
 
-Det finns goda möjligheter att ta hjälp av AI i början av en utbildning. Men använd detta för att *lära dig själv* att lösa problem. Annars kommer du att få problem i mer avancerade kurser, när AI inte är lika bra på att hjälpa till.
+Det finns goda möjligheter att få hjälp av AI i början av en utbildning. Men använd detta för att *lära dig själv* att lösa problem. Annars kommer du att få problem i mer avancerade kurser, när AI inte är lika bra på att hjälpa till.
 
 
 ---
 
 ## GitHub Copilot
 Genom att indexera (läsa) all kod som laddats upp på GitHub i publika repositories, har Microsoft skapat en AI-tjänst till Visual Studio Code. Medan du skriver kan AI föreslå hur slutet på raden borde bli, baserat på koden du tidigare skrivit och hur liknande kod brukar se ut på GitHub.
+
+Detta verktyg är bäst för mer erfarna utvecklare. Risken finns att du blir distraherad eller för beroende av Copilot för att lösa uppgifter.

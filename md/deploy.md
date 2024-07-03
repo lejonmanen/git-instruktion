@@ -1,26 +1,30 @@
 [Innehåll](../README.md)
 
+*Uppdaterad juli 2024*
+
 # Deploy
 
 1. [Översikt](#översikt---olika-sätt-att-publicera-sin-app)
 1. [Vanliga lösningar](#vanliga-lösningar)
 1. [Publicera fullstack app](#publicera-fullstack-app)
-
+1. [Tips för felsökning](#tips-för-felsökning)
 
 ### Översikt - olika sätt att publicera sin app
 
 |Namn         |Backend? |Kommentar |
 |-------------|---------|---|
 |GitHub Pages |Nej      |Behöver ett GitHub-repo. Lite invecklat att publicera nya versioner. |
-|Heroku       |Ja       |Kan publicera node.js eller Docker containers. |
+|Render       |Ja       |Kan publicera node.js eller Docker containers. |
+|Heroku       |Ja       |Kan publicera node.js eller Docker containers. Inte gratis. |
 |surge.sh     |Nej      |Extremt lättanvänt npm-skript |
 |Netlify      |Delvis   |Publicera enskilda routes med serverless functions |
-|Firebase     |Delvis   | |
+|Firebase     |Delvis   |Finns både för frontend och backend. Stöd för databas i frontend. |
+|AWS          |Ja       |Krångligt, men kan allt. |
 
 ### Vanliga lösningar
 1. Publicera en webbserver, som servar både frontend-appen och eventuellt API
 1. Publicera API webbserver och frontend-app separat
-1. Publicera bara en frontend-app och kör backend i molnet
+1. Publicera bara en frontend-app och kör backend med serverless i molnet
 
 Teknikstack för den här guiden:
 
@@ -29,7 +33,7 @@ Teknikstack för den här guiden:
 |Node.js   |Köra lokal utvecklingsmiljö, bygga appen |
 |Express   |Backend webbserver |
 |React/Vue |Frontend app |
-|Heroku    |Publicera fullstack-appen
+|Heroku    |Publicera fullstack-appen |
 
 ---
 ### Publicera fullstack app
@@ -46,13 +50,8 @@ Teknikstack för den här guiden:
 #### 1 Skapa frontend-projekt
 *Den här guiden förutsätter att du använder React. Men Vue fungerar lika bra.*
 ```bash
-# React - välj med eller utan TypeScript
-npx create-react-app your-app-name
-npx create-react-app your-app-name --template typescript
-
-# Vue
-npm install -g @vue/cli
-vue create your-app-name
+# Använd Vite för att sätta upp projekt
+npm init vite@latest your-app-name
 ```
 ---
 
@@ -73,7 +72,7 @@ Express ska installeras i samma mapp som frontend-projektet. Skriv i terminalen:
 ```bash
 npm i express cors
 # express är din webbserver
-# cors är en middleware som låter dig bygga ett REST API, som kan användas av andra webbservrar
+# cors är en middleware som låter dig bygga ett REST API, du behöver det om en frontend på en annan server ska använda API:et
 
 mkdir backend/
 touch backend/server.js
@@ -84,18 +83,15 @@ touch backend/server.js
 
 ---
 #### 4 Inställningar
-Filen `package.json` är som standard konfigurerad för enkla frontend-appar. Du behöver ändra i `script`-delen och lägga till en `proxy`. Mer information: [proxy i React](https://create-react-app.dev/docs/proxying-api-requests-in-development/) och [devServer.proxy i Vue](https://cli.vuejs.org/config/#devserver-proxy).
+Filen `package.json` är som standard konfigurerad för enkla frontend-appar. Du behöver ändra i `script`-delen och lägga till en `proxy`. Mer information: [Setting up proxy server on Vite](https://dev.to/ghacosta/til-setting-up-proxy-server-on-vite-2cng) och [devServer.proxy i Vue](https://cli.vuejs.org/config/#devserver-proxy).
 
 *Exempel på del av ändrad package.json. Använd samma portnummer för proxy som du skriver i backend/server.js.*
+
 ```json
 "proxy": "http://localhost:1337/",
 "scripts": {
-	"start": "node backend/server.js",
-	"start-backend": "node backend/server.js",
-	"start-frontend": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "start-backend": "node backend/server.js",
+  "start-frontend": "vite dev",
 }
 ```
 
@@ -169,7 +165,8 @@ När du pushar kommer din senaste commit att skickas till servern. Heroku börja
 Heroku dashboard, fliken **Overview**, uppdateras i realtid när Heroku bygger appen. När den är färdig kan du klicka på knappen **Open app**. Om något går fel kan du läsa i loggfilerna via **More**-knappen till höger om Open app. Alla console.log som du har i backend/server.js visas i loggfilen.
 
 ---
-##### Tips för felsökning
+
+### Tips för felsökning
 1. Om du inte ser något alls:
 	1. Titta i webbläsarens console om det finns några felmeddelanden
 	1. Använd "Visa sidkälla" (View source, högerklicka på den tomma webbsidan) för att se om du har en index.html som ser riktig ut. Kontrollera sökvägarna i filen genom att öppna dem i en ny flik.

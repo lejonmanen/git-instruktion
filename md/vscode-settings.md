@@ -1,5 +1,7 @@
 [Innehåll](../README.md)
 
+*Uppdaterad juli 2024*
+
 ## VS Code: rekommenderade inställningar
 
 Det är viktigt att konfigurera din editor så att du kan arbeta effektivt i den. Här är några starkt rekommenderade inställningar för VS Code. Du kan göra samma inställningar i andra editorer också, men menyerna ser lite annorlunda ut.
@@ -57,9 +59,10 @@ Man kan även aktivera eller stänga av *word wrap* för en fil i taget via meny
 
 ### Formatera kod
 Formatera markerad kod med Shift+Alt+F i Windows.
-![Kortkommando för att formatera kod](../img/format-code-shortcut.png)
+![Kortkommando för att formatera kod, från Stack overflow](../img/format-code-shortcut.png)
 
-Formatera kod automatiskt när man sparar filer.
+Formatera kod automatiskt när man sparar filer. Använd detta i början av utbildningen, om du har svårt för att förstå *indentering* och *block*.
+
 ![Autoformatera kod](../img/format-on-save.png)
 
 
@@ -71,6 +74,6 @@ Klicka på Tetris-ikonen och skriv in namnet på en *extension* för att söka e
 3. **indent-rainbow** - färglägger indenteringsstegen så det blir lättare att se var block börjar och slutar.
 4. **Prettier** - autoformatera kod.
 
-Bra inställningar:
-1. bracketPairColorization - sätt till true för att ge olika parentespar olika färger. Gör det lättare att se om man glömt en parentes.
-2. trimTrailingWhitespace - Tar bort whitespaces i slutet på rader när du sparar.
+Fler bra inställningar (File -> Preferences -> Settings)
+1. Bracket Pair Colorization - sätt till true för att ge olika parentespar olika färger. Gör det lättare att se om man glömt en parentes.
+2. Trim Trailing Whitespace - Tar bort whitespaces i slutet på rader när du sparar.

@@ -54,13 +54,15 @@ Hämta nya uppdateringar från GitHub. Hämtar alla commits som du inte har på 
 ### `git branch`
 Visar vilka branches som finns på din lokala dator. Du kan skapa en ny branch genom att skriva `git branch new-branch-name`.
 
-### `git checkout branch-name`
+### `git switch branch-name`
 Säger åt git att byta branch. Detta går bara om du är *clean* - se [git commit](#git-commit).
 
 När man byter branch så uppdateras alla filer i mappen, så att de matchar den valda branchen.
 
-### `git merge from-branch`
-Se [Konfliktlösning](#konfliktlosning). Hämtar ändringar som gjorts i "from-branch" och kombinerar dem med din aktuella branch. Vi använder det för att kombinera kod. Git försöker lösa det automatiskt, men om två personer gjort ändringar i samma fil får vi en *merge-konflikt*.
+Du kan skriva `checkout` i stället för `switch`, för samma effekt.
+
+### `git merge branch-to-get`
+Se [Konfliktlösning](#konfliktlosning). Hämtar ändringar som gjorts i "branch-to-get" och kombinerar dem med din aktuella branch. Vi använder det för att kombinera kod. Git försöker lösa det automatiskt, men om två personer gjort ändringar i samma fil får vi en *merge-konflikt*.
 
 ### `git reset`
 Se [Ångra och återställa](#angra-och-aterstalla). Används till många olika saker, som har att göra med tidigare commits:
@@ -70,6 +72,19 @@ Se [Ångra och återställa](#angra-och-aterstalla). Används till många olika 
 + "ångra" en commit
 
 ---
+
+## Förstagångskonfiguration
+
+När du installerar Git för första gången måste du konfigurera det. Skriv följande i terminalen. Innan du gjort det kan du inte göra en commit.
+
+Namnet ska vara ditt namn. När man gör en commit till GitHub brukar man använda sitt riktiga namn. Inga gamer-tags här!
+
+E-postadressen ska vara den e-post du använder för att logga in på GitHub.
+
+```bash
+git config --global user.name "Ditt Namn"
+git config --global user.email "din.epost@gmail.com"
+```
 
 
 Fortsättning följer i del 2: [Workflow](git-workflow.md)

@@ -1,5 +1,8 @@
 # Git instruktion
-Guider till git och relaterade ämnen. Skrivet i första hand för studenter på yrkeshögskola. Det mesta gäller för alla programmeringsutbildningar, men kodexempel är i första hand JavaScript.
+Detta blogg/repo började som en samling artiklar om Git. Det har efterhand vuxit med fler relaterade ämnen.
+
+Målgruppen är studenter på yrkeshögskola, som läser en programmeringsutbildning, med inriktning frontendutveckling. Men mycket av innehållet är användbart även för andra.
+
 
 ### Studieteknik
 1. [Studieteknik](md/studieteknik.md#Studieteknik)

@@ -1,5 +1,7 @@
 [Innehåll](../README.md)
 
+*Uppdaterad* juli 2024*
+
 # Terminalen
 
 1. [Historia](#1-historia)
@@ -71,7 +73,7 @@ Filerna i en dator ligger ordnade i mappar. Mappar kan innehålla andra mappar.
 |`/` |Forward slash |Snedstreck |
 |`\` |Backslash     |Omvänt snedstreck |
 
-macOS och Liunx har sökvägar som börjar exempelvis med `/usr/home` eller `~/`. Tecknet tilde `~` betyder "användarens hemmamapp". Snedstrecken *lutar åt höger*.
+Mac OS och Linux har sökvägar som börjar exempelvis med `/usr/home` eller `~/`. Tecknet tilde `~` betyder "användarens hemmamapp". Snedstrecken *lutar åt höger*.
 
 
 Windows har sökvägar som börjar med `C:\Användare\` eller `"Mina dokument"`. Snedstrecken *lutar åt vänster*. Om en sökväg innehåller mellanslag, måste du använda citattecken.
@@ -82,12 +84,12 @@ Windows har sökvägar som börjar med `C:\Användare\` eller `"Mina dokument"`.
 |Directory    |Katalog     |
 |Folder       |Mapp        |
 
-*Finder* (macOS) och *Explorer/Utforskaren* (Windows) är grafiska program för att se vilka filer som finns på din dator.
+*Finder* (Mac OS) och *Explorer/Utforskaren* (Windows) är grafiska program för att se vilka filer som finns på din dator.
 
 ---
-*Tips 1: många program som programmerare använder förutsätter att man använder macOS-sökvägar, även om man kodar på en Windows-dator.*
+*Tips 1: många program som programmerare använder förutsätter att man använder Mac/Linux-sökvägar, även om man kodar på en Windows-dator.*
 
-*Tips 2: undvik svenska tecken och mellanslag i dina mappnamn! En del frontend-verktyg klarar inte av dem.*
+*Tips 2: undvik svenska tecken och mellanslag i dina mappnamn! En del verktyg klarar inte av dem. Håll dig till bokstäverna a-z, siffror, bindestreck och punkt.*
 
 #### Exempel
 ```bash
@@ -110,8 +112,11 @@ cd ../javascript2
 #### Dolda filer
 Vissa filer eller mappar kan vara *dolda*. Det innebär att de inte syns varken i Finder eller Explorer, eller när du skriver `ls`. Unix-baserade system brukar göra filer som börjar med punkt osynliga. Exempel: `.git`-mappen.
 
-Göra dolda filer synliga med explorer:
+Göra dolda filer synliga med Windows Explorer:
 ![Visa dolda filer](../img/explorer-hidden-files.png)
+
+"Dolda objekt" finns på en annan plats i Explorer för Windows 11:
+![Visa dolda filer](../img/explorer-11-hidden-files.png)
 
 
 
@@ -119,7 +124,7 @@ Göra dolda filer synliga med explorer:
 ---
 **Övning 3**: öppna Finder eller Explorer. Skapa en mapp med namnet "Skola". Gå in i den mappen och skapa en mapp för din nuvarande kurs. Skapa en till mapp inuti den med namnet "terminalen".
 
-**Övning 4**: öppna en terminal inuti din mapp "terminalen". (Tips! Prova att högerklicka på mappen i Explorer.)
+**Övning 4**: öppna en terminal inuti din mapp "terminalen". (Tips! Prova att högerklicka på mappen i Explorer. På Windows 11 måste man klicka på "Visa fler alternativ" för att se "Git Bash Here".)
 
 ![Högerklicka på en mapp](../img/right-click-open-terminal.png)
 

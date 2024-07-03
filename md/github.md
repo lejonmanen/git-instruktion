@@ -1,6 +1,6 @@
 [Innehåll](../README.md)
 
-*Uppdaterad VT 2021*
+*Uppdaterad VT 2024*
 
 Guiden bygger på att du läst [git.md](git.md) och [terminalen.md](terminalen.md).
 
@@ -40,17 +40,17 @@ Skapa ett nytt repository. Ge det ett namn (gärna samma som mappen det ligger i
 ### Koppla ihop dina båda repon
 ![Skapa nytt repo](../img/gh-create-repo-2.png)
 
-Nu när du har ett nytt, tomt repo på GitHub få du förslag på hur du ska lägga till filer. Scrolla ner till alternativet "existing repository" och skriv i terminalen. Exempel:
+Nu när du har ett nytt, tomt repo på GitHub få du förslag på hur du ska lägga till filer. Scrolla ner till alternativet "existing repository" och skriv i terminalen. Så här gör du:
 
 ```bash
-# lägg till en "origin" till ditt lokala repo
-# detta kopplar ihop det med GitHub
+# Lägg till en "origin" till ditt lokala repo
+# Detta kopplar ihop det med GitHub
 git remote add origin https://github.com/your-github-username/your-repo-name.git
 
 # kontrollera att du gjort rätt - git ska visa "origin" i terminalen
 git remote
 
-# byt namn på master-branchen till main
+# om branchen heter "master" ska du byta namn på den till main
 git branch -M main
 
 # pusha dina committade lokala filer upp till GitHub
@@ -72,14 +72,14 @@ Skriv i terminalen:
 git clone https://github.com/your-github-username/your-repo-name.git
 cd your-repo-name/
 
-# installera alla npm-paket som står med i package.json
+# Om du jobbar med ett frontend-projekt:
+# - installera alla npm-paket som står med i package.json
+# - kör start-skriptet
 npm install
-
-# kör start-skriptet (om det finns)
 npm run start
 ```
 
-*Tips! Öppna Atom smidigt med `atom .` i terminalen, eller VS Code med `code .` - innan du startar appen.*
+*Tips! Öppna VS Code med `code .` innan du startar appen. När du startat appen kan du inte göra något annat med den terminalen utan att stoppa appen. Det går utmärkt att ha flera terminaler igång samtidigt.*
 
 ---
 ### Commit-historik
@@ -100,16 +100,17 @@ Det går att ändra en fil direkt på GitHub. Men varje ändring skapar en egen 
 
 ![Ändra fil 1](../img/gh-edit-file.png)
 
-Klicka på pennan för att börja ändra i filen. Om du inte skriver ett commit-meddelande kommer GitHub välja `"Edit filens-namn"`. Du kan även byta namn på filen.
+Klicka på pennan för att börja ändra i filen. Om du inte skriver ett commit-meddelande kommer GitHub använda `"Edit filens-namn"`. Du kan även byta namn på filen.
+
 ![Ändra fil 2](../img/gh-edit-file-2.png)
 
 ---
 ### Pull request
-När vi arbetar tillsammans med andra behöver vi sätt att synkronisera vårt arbete, utan att vi får onödigt många merge-konflikter. ([git-merge.md](git-merge.md).) En pull request är egentligen ett webbaserat gränssnitt för att göra `git merge`. Exempel på användningsfall:
+När vi arbetar tillsammans med andra behöver vi sätt att synkronisera vårt arbete, utan att vi får onödigt många merge-konflikter. ([Läs om konflikthantering](git-merge.md).) En pull request är egentligen ett webbaserat gränssnitt för att göra `git merge`. Exempel på användningsfall:
 
 + skicka ändringar från en branch till en annan
 + man vill bidra till ett open source-projekt
-+ kontrollera ny kod efter buggar, innan den läggs in i main-branchen
++ kontrollera ny kod för buggar, innan den läggs in i main-branchen
 
 **Det går till så här:**
 

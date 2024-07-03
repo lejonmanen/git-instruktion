@@ -1,5 +1,7 @@
 [Innehåll](../README.md)
 
+*Uppdaterad juli 2024*
+
 # Grupparbete
 
 
@@ -24,3 +26,5 @@ För att se till att alla förstår varandra kan man börja gruppens arbete med 
 
 ## Verktyg
 **[Trello](https://trello.com/)** är ett verktyg för att hålla koll på vad som ska göras i ett projekt. Man delar upp projektet i små deluppgifter, som man arrangerar i olika listor. Trello används ofta när man jobbar agilt med **Kanban** eller **Scrum**.
+
+Se även [Att arbeta agilt](agile.md).
