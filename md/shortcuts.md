@@ -61,3 +61,8 @@ Exempel: `Ctrl + N`. Håll nere Ctrl (control), tryck ner N, släpp upp N, släp
 |`Ctrl + Win + vänster/högerpil` |Använd vänster- eller högerpil för att snabbt byta mellan virtuella skrivbord. |
 |`Alt`             |Håll nere Alt-tangenten så blir vissa bokstäver i menyraden understrykna. Använd Alt+*bokstav* för att öppna en viss meny. |
 
+
+### Tangenter
+Viktiga tangenter för att arbeta effektivt!
+
+![tangenter](../img/mac-tab-arrows.jpg)
