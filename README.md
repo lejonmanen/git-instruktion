@@ -24,6 +24,7 @@ Målgruppen är studenter på yrkeshögskola, som läser en programmeringsutbild
 ### Allmän datorkunskap
 1. [Terminalen](md/terminalen.md#terminalen)
 1. [GitHub](md/github.md#att-arbeta-med-frontend)
+1. [Publicera React-app med GitHub Pages](md/deploy-react.md)
 1. [Deploy](md/deploy.md#deploy) (publicera JavaScript fullstack-app online)
 1. [Kortkommandon](md/shortcuts.md) (Windows)
 
