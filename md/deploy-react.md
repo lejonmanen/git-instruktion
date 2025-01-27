@@ -73,7 +73,7 @@ Nu kan du i fortsättningen publicera direkt genom att skriva:
 npm run deploy
 ```
 
-Ship away!
+Ship away! Men se upp - skriptet publicerar det som ligger i projektets mapp just nu, inte den senaste committen!
 
 ---
 
