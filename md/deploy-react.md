@@ -8,6 +8,7 @@
 1. [Terminalkommandon](#instruktioner)
 1. [vite.config.js](#viteconfigjs)
 1. [package.json](#packagejson)
+1. [React Router](#react-router)
 
 #### Olika sätt att publicera sin app
 Utöver GitHub Pages finns det många tjänster för att publicera en statisk frontend-app, t.ex. Netlify, Surge.sh och Firebase.
@@ -73,3 +74,13 @@ npm run deploy
 ```
 
 Ship away!
+
+---
+
+### React Router
+Om du använder det vanliga paketet React Router - se upp! RR har två olika routers:
+
+1. BrowserRouter
+1. HashRouter
+
+Många guider rekommenderar BrowserRouter, eftersom de utgår från att man bygger en webbserver också. Men den tekniken fungerar inte på en statisk frontend. Du måste använda HashRouter.
