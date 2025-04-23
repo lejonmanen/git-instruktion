@@ -56,11 +56,11 @@ npm init vite@latest your-app-name
 ---
 
 #### 2 Skapa repo på GitHub
-![Skapa publikt repo](../img/gh-create-repo-1.png)
+![Skapa publikt repo](../img/git/gh-create-repo-1.png)
 
 *Skapa ett nytt repo på GitHub. Tips: det är praktiskt om du använder samma namn som i steg 1.*
 
-![Koppla ihop med lokalt repo](../img/gh-create-repo-2.png)
+![Koppla ihop med lokalt repo](../img/git/gh-create-repo-2.png)
 
 *Koppla ihop ditt nya GitHub-repo med repot på din dator.*
 
