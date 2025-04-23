@@ -1,6 +1,6 @@
 [Innehåll](README.md)
 
-*Uppdaterad juli 2024*
+*Uppdaterad april 2025*
 
 1. [TL;DR](#tldr)
 1. [Exempel på frågor du kan ställa till en AI](#exempel-på-frågor-du-kan-ställa-till-en-ai)
@@ -12,24 +12,28 @@
 ---
 
 # AI
-Från och med att ChatGPT släpptes i november 2022 har vi tillgång till en oerhört kraftfull gratis assistent. Andra exempel är Bard och GitHub Copilot. Framöver kommer vi att se exempel på att AI integreras i fler och fler appar.
+Från och med att ChatGPT släpptes i november 2022 har vi tillgång till en oerhört kraftfull gratis assistent. Sedan dess har det kommit många andra LLMs (large language model) som har ungefär samma funktionalitet.
 
-AI är ett arbetsredskap som du kommer behöva lära dig att använda på bästa sätt. Se det som ett komplement till att googla och läsa artiklar.
+Idag (VT 2025) ser vi att AI integreras i fler och fler appar.
 
-Se AI som en *entusiastisk assistent*, som vill hjälpa till, men inte alltid är så noga med vad som är sant.
+AI är ett arbetsredskap som du kommer behöva lära dig att använda på bästa sätt. Se AI som en *entusiastisk assistent*, som vill hjälpa till, men inte alltid är så noga med vad som är sant.
 
 ## TL;DR
 För dig som är yh-student:
 
-**Använd för att:**
-1. Få särskilt krånglig kod förklarad för dig
-1. Få förslag på lämpliga övningar på det du jobbar med
-1. Rätta fel i det du skrivit
-1. Göra texten lättare att läsa
-1. Skapa realistisk testdata
-1. Hitta fel i koden
-1. Lösa specifika problem
-1. Sammanfatta längre texter
+**Använd AI för att:**
+
+| |Syfte |Exempel |
+|-|-|-|
+|1|Få särskilt krånglig kod förklarad för dig |Förklara vad som händer i den här koden: ...|
+|2|Få förslag på lämpliga övningar på det du jobbar med |Ge mig 5 övningar på variabler och loopar|
+|3|Förklara felmeddelanden |När jag försöker köra följande kod får jag ett felmeddelande. Vad beror det på? |
+|4|Göra texten lättare att läsa |Skriv om följande text så att den blir lättare att läsa: ... |
+|5|Skapa realistisk testdata |Ge mig 10 JavaScript-objekt som representerar användare. Varje objekt ska ha egenskaperna id, namn och epost. |
+|6|Hitta fel i koden |Finns det något i följande kod som jag kan förbättra? |
+|7|Lösa specifika problem |Jag behöver sortera en lista med strängar. Förklara hur jag kan göra, men ge mig inte hela lösningen direkt. |
+|8|Sammanfatta längre texter |Jag försöker lära mig funktioner och läste detta online. Sammanfatta följande text i punktform: ... |
+
 
 **Se upp med:**
 
@@ -38,6 +42,8 @@ För dig som är yh-student:
 1. Se AI som en hjälpsam assistent, som dock ofta hittar på saker
 1. Tillämpa källkritik - kontrollera alltid det som en AI genererat
 1. AI kan föreslå en lösning som tycks fungera, men som använder föråldrad teknik
+
+*Tips: när du arbetar med en uppgift, skriv ner vilka frågor du använder dig av. Då kan du be läraren om feedback på hur bra dina frågor är.*
 
 ---
 ## Exempel på frågor du kan ställa till en AI
@@ -83,9 +89,7 @@ Men syftet med en YH-utbildning är att du ska lära dig en profession - ett han
 
 
 ## ChatGPT
-ChatGPT är en språkmodell som använder naturligt språk. Den baserar sig på statistik. Baserat på orden i din fråga, kommer den att slumpa ord som svar, ett i taget, baserat på vad som är mest sannolikt. (något förenklat)
-
-Det finns flera språkmodeller, till exempel Google Bard. Den bygger på samma teknik, men kan ge lite annorlunda svar.
+ChatGPT är en språkmodell (large language model) som använder naturligt språk. Den baserar sig på statistik. Baserat på orden i din fråga, kommer den att slumpa ord som svar, ett i taget, baserat på vad som är mest sannolikt. (något förenklat)
 
 ChatGPT har indexerat (läst) större delen av det öppna internet och använder det för att kunna beräkna sannolikheterna. Detta innebär bland annat att:
 
@@ -93,6 +97,7 @@ ChatGPT har indexerat (läst) större delen av det öppna internet och använder
 + Man får bättre svar när det gäller tekniker som fler använder, eftersom det finns mer skrivet kring dem - dvs mest användbart i inledande YH-kurser
 + Svar som använder gamla, inaktuella tekniker kan dyka upp
 + Texter från inloggningsskyddade webbsidor har inte indexerats
++ Ny information kanske inte hunnit indexeras än
 
 Det finns goda möjligheter att få hjälp av AI i början av en utbildning. Men använd detta för att *lära dig själv* att lösa problem. Annars kommer du att få problem i mer avancerade kurser, när AI inte är lika bra på att hjälpa till.
 
