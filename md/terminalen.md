@@ -45,7 +45,7 @@ antingen Git Bash (följer med Git) eller Cmder.
 Cmd/Kommandotolken är Windows inbyggda terminal. Den har inga funktioner som hjälper utvecklare.
 
 ---
-![git bash](../img/git-bash.png)
+![git bash](../img/git/git-bash.png)
 Git Bash är en bra, kompetent terminal som följer med när man installerar Git.
 
 Gul färg visar vilken mapp man befinner sig i för tillfället.
