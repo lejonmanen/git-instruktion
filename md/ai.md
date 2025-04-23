@@ -5,6 +5,7 @@
 1. [TL;DR](#tldr)
 1. [Exempel på frågor du kan ställa till en AI](#exempel-på-frågor-du-kan-ställa-till-en-ai)
 1. [Tänk långsiktigt](#tänk-långsiktigt)
+1. [Bli bättre på att prompta](#bli-bättre-på-att-prompta)
 1. [ChatGPT](#chatgpt)
 1. [GitHub Copilot](#github-copilot)
 1. [Tips till lärare](#tips-till-lärare)
@@ -88,6 +89,28 @@ Men syftet med en YH-utbildning är att du ska lära dig en profession - ett han
 ---
 
 
+## Bli bättre på att prompta
+*Tips från Magnus Gille, svensk mästare i AI-prompting februari 2025.*
+[Källa](https://ingenjoren.se/2025/03/05/ai-experten-sa-promptar-du-bast/?mtm_campaign=utskick&mtm_content=Ingenj%c3%b6ren|%20Karri%c3%a4r%20v.10&mtm_medium=email&mtm_placement=2025-03-06&mtm_source=apsis-utskick)
+
+### 1 Ge AI en roll – styr in samtalet från början
+AI fungerar bäst när den vet vilken expertis den förväntas ha. Om du till exempel vill ha hjälp att skriva en teststrategi, be den att agera som en erfaren testingenjör. Du kan säga: ”Du är en expert på testning av mjukvara. Hjälp mig att sätta upp en teststrategi för en ny produkt”. Ju mer detaljerad du är, desto bättre blir resultatet.
+
+### 2 Var inte rädd för att ge AI mycket kontext
+AI kan hantera stora mängder information, så ge den rätt förutsättningar. Klistra in testfall, dokumentation eller kod. Istället för att fråga ”Hur kan jag förbättra min kod?” kan du säga: ”Här är min kod. Jag vill att du granskar den ur ett prestandaperspektiv och ger mig tre konkreta förbättringsförslag”.
+
+### 3 Tänk på AI som en dialogpartner – inte ett facit
+Be AI att ställa följdfrågor istället för att bara ge ett snabbt svar. En bra prompt kan vara: "Jag vill diskutera min teststrategi. Fråga mig om saker du behöver veta innan vi börjar". Då styr du processen och får ett bättre resultat.
+
+### 4 Låt AI utmana dig – vänd på perspektiven
+Om du står inför ett beslut, be AI att argumentera emot dig. En bra prompt kan vara: "Jag lutar åt att välja den här lösningen. Ge mig tre argument för och tre emot". På så sätt tvingas du tänka bredare och se fler aspekter.
+
+### 5 Testa dig fram och justera – AI lär sig av din input
+En prompt är sällan perfekt från början. Be AI förklara sitt resonemang, ändra detaljer och be om ett nytt svar om något känns fel. Att finjustera är en del av processen.
+
+---
+
+
 ## ChatGPT
 ChatGPT är en språkmodell (large language model) som använder naturligt språk. Den baserar sig på statistik. Baserat på orden i din fråga, kommer den att slumpa ord som svar, ett i taget, baserat på vad som är mest sannolikt. (något förenklat)
 
@@ -99,7 +122,7 @@ ChatGPT har indexerat (läst) större delen av det öppna internet och använder
 + Texter från inloggningsskyddade webbsidor har inte indexerats
 + Ny information kanske inte hunnit indexeras än
 
-Det finns goda möjligheter att få hjälp av AI i början av en utbildning. Men använd detta för att *lära dig själv* att lösa problem. Annars kommer du att få problem i mer avancerade kurser, när AI inte är lika bra på att hjälpa till.
+Det finns goda möjligheter att få hjälp av AI i alla skeden av en utbildning. Men använd detta för att *lära dig själv* att lösa problem. Annars kommer du att få problem i mer avancerade kurser, när AI inte är lika bra på att hjälpa till.
 
 
 ---
