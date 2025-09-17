@@ -5,8 +5,9 @@ Tillbaka till del 1: [Kommandoreferens](git.md)
 
 1. [Workflow](#workflow)
 1. [Skapa projekt](#skapa-projekt)
-1. [](#)
-1. [](#)
+1. [Pull request](#pull-request)
+1. [Genomför merge](#genomför-merge)
+1. [Testa koden på din dator](#testa-koden-på-din-dator)
 
 
 # Workflow
@@ -56,6 +57,9 @@ Nu är det dags att återvända till webbläsaren och fliken med git-repot. Ladd
 
 *Om du inte ser notisen måste du skapa en pull request manuellt. Klicka på menyalternativet "Pull Request".*
 
+![Pull request illustration](../img/git/pull-request.png)
+
+
 ## Pull request
 När du klickar på knappen för att skapa en pull request, är det som om du säger:
 
@@ -72,6 +76,7 @@ Man kan välja "reviewer". Det kan vara en eller flera teammedlemmar som tilldel
 *Tips: du måste inte utse en reviewer, utan den i teamet som först får en lugn stund kan ta på sig uppgiften.*
 
 Nu är det dags: **skapa din pull request**!
+
 
 ## Genomför merge
 När den som granskar är nöjd klickar man på knappen mer att godkänna pull requesten och integrera den i branchen. (Oftast dev-branchen.)
