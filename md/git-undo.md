@@ -84,3 +84,6 @@ git push
 
 ## 4 Pushade känsliga uppgifter
 You're screwed. Det går inte att 100% garantera att ingen kan plocka ut lösenordet ur koden på GitHub. Byt alla lösenord som har läckt.
+
+
+Se hur proffsen arbetar i del 3: [Pull request](git-pull-request.md#workflow)

@@ -14,6 +14,7 @@ Målgruppen är studenter på yrkeshögskola, som läser en programmeringsutbild
 1. [Git workflow](md/git-workflow.md#git)
 1. [Konfliktlösning](md/git-merge.md#git)
 1. [Ångra och återställa](md/git-undo.md#ångra-och-återställa)
+1. [Arbeta med Pull request](md/git-pull-request.md#workflow)
 
 ### Arbeta i team
 1. [Grupparbete](md/group.md#grupparbete)
