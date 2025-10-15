@@ -25,8 +25,6 @@ Målgruppen är studenter på yrkeshögskola, som läser en programmeringsutbild
 ### Allmän datorkunskap
 1. [Terminalen](md/terminalen.md#terminalen)
 1. [GitHub](md/github.md#att-arbeta-med-frontend)
-1. [Publicera React-app med GitHub Pages](md/deploy-react.md)
-1. [Deploy](md/deploy.md#deploy) (publicera JavaScript fullstack-app online)
 1. [Kortkommandon](md/shortcuts.md) (Windows)
 
 ### Programmering
@@ -35,3 +33,8 @@ Målgruppen är studenter på yrkeshögskola, som läser en programmeringsutbild
 1. [VS Code: Rekommenderade inställningar](md/vscode-settings.md#vs-code-rekommenderade-inställningar)
 1. [Nästa steg - clean code](md/clean-code-summary.md#nästa-steg)
 1. [JavaScript översikt](md/js-overview.md)
+
+### Avancerade artiklar
+1. [Publicera React-app med GitHub Pages](md/deploy-react.md)
+1. [Deploy](md/deploy.md#deploy) (publicera JavaScript fullstack-app online)
+1. [Sätta upp fullstack-projekt](md/fullstack-setup.md)
