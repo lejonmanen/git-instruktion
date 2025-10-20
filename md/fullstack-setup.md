@@ -11,6 +11,9 @@
 1. [Server-inställningar](#server-inställningar)
 1. [Proxy](#proxy)
 1. [Förslag på mappstruktur](#förslag-på-mappstruktur)
+1. [Testa](#testa)
+
+---
 
 
 # Sätta upp fullstackprojekt
@@ -62,7 +65,7 @@ Lägg till skript för vanliga uppgifter, så det är lätt att starta servern v
 		"dev": "vite",
 		"build-frontend": "tsc -b && vite build",
 		"build-server": "tsc -p ./srcServer/tsconfig.json",
-		"start-server": "node --env-file ./srcServer/.env  ./backendDist/server.js",
+		"start-server": "node --env-file ./.env  ./distServer/server.js",
 		"restart-server": "clear && npm run build-server && npm run start-server",
 		"predeploy": "npm run build-frontend && npm run build-server"
 	}
@@ -78,12 +81,12 @@ cd ..
 ```
 
 Se till att följande rader finns i den nya tsconfig.json. Detta talar om
-+ att vi vill använda "nästa" JavaScript-version, dvs den modernaste syntaxen
++ att vi vill använda "nästa" JavaScript-version, dvs den modernaste syntaxen för Node
 + att TypeScript ska leta efter .ts-filer i serverns mapp
 + var de byggda serverfilerna ska läggas
 
 ```json
-"module": "esnext",
+"module": "nodenext",
 "rootDir": "./",
 "outDir": "../distServer/",
 ```
@@ -98,13 +101,13 @@ distServer/
 
 
 ## Environment-fil
-Backend kommer att behöva hemligheter för att ansluta till databasen och publicera appen. Skapa en fil med namnet `.env` i mappen `backendSrc/`.
+Backend kommer att behöva hemligheter för att ansluta till databasen och publicera appen. Skapa en fil med namnet `.env` i rotmappen.
 
 ```env
 PORT=1337
 ACCESS_KEY=(DynamoDB)
 SECRET_ACCESS_KEY=(DynamoDB)
-JWT_SECRET=
+JWT_SECRET=(ett säkert lösenord som du väljer)
 ```
 
 Vi använder environment-filer till information som inte ska laddas upp på GitHub.
@@ -112,16 +115,16 @@ Vi använder environment-filer till information som inte ska laddas upp på GitH
 + access till databas
 	+ access keys (DynamoDB)
 	+ connection string (MongoDB)
-+ hemlighet för JWT - tänk dig ett riktigt svårt lösenord
++ hemlighet för JWT - ett riktigt svårt lösenord, som du väljer
 
 
 ## Server-inställningar
-Kör `npm run build` för att bygga frontend. Servern ska serva den byggda frontend från mappen `dist/`.
+Kör `npm run build-frontend` för att bygga frontend. Servern ska serva den byggda frontend från mappen `dist/`.
 
 ```js
 // srcServer/server.ts
 // Ange en backup-port som ska användas om .env-filen inte kan laddas.
-const port: string = process.env.PORT || 1337
+const port: number = Number(process.env.PORT) || 1337
 
 app.use(express.static('./dist/'))
 ```
@@ -166,3 +169,29 @@ En *feature* är en avgränsad del av en React-app, som kan utvecklas för sig. 
 	distServer/     Byggda backend-filer
 	public/         Gemensamma frontend-resurser
 ```
+
+
+## Testa
+Nu är det dags att testa om allt fungerar!
+
+
+```bash
+# Bygga projektet
+# 1 Skriv i terminalen
+npm run build-frontend
+npm run restart-server
+```
+
+```bash
+# Öppna i webbläsaren
+# 1 Testa frontend i statiska mappen
+localhost:1337/index.html
+
+# 2 Testa valfri GET endpoint
+localhost:1337/api/exempel
+```
+
+---
+
+
+[Till toppen av sidan](#sätta-upp-fullstackprojekt)
