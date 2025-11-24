@@ -26,6 +26,7 @@ Målgruppen är studenter på yrkeshögskola, som läser en programmeringsutbild
 1. [Terminalen](md/terminalen.md#terminalen)
 1. [GitHub](md/github.md#att-arbeta-med-frontend)
 1. [Kortkommandon](md/shortcuts.md) (Windows)
+1. [Börja ett kodprojekt](md/start-project.md)
 
 ### Programmering
 1. [Skriva bra kod](md/write-good-code.md#att-skriva-bra-kod)
