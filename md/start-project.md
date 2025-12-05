@@ -5,7 +5,6 @@
 1. [TL;DR](#tldr)
 1. [Windows](#windows)
 1. [MacOS](#macos)
-1. [on](#n)
 
 ---
 
