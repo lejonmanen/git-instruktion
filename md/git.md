@@ -1,6 +1,11 @@
 [Innehåll](../README.md)
 
+
 # Git
+1. [Kommandoreferens](#kommandoreferens)
+1. [Förstagångskonfiguration](#förstagångskonfiguration)
+
+
 ## Kommandoreferens
 
 ### `git init`
@@ -36,6 +41,8 @@ När du har gjort en commit så säger vi att din *working directory* är *clean
 Visar alla commits som gjorts i repot. Har många inställningar. Till exempel kan du visa de tre senaste commits som gjorts på en rad var geom att skriva:
 `git log -3 --oneline`
 
+---
+
 ### `git remote`
 Visar om repot är anslutet till några "remote repository", till exempel GitHub. När du skapar ett nytt projekt på din dator ska du använda git remote för att lägga till det på din GitHub:
 ```bash
@@ -50,6 +57,8 @@ Ta reda på *om* det finns nya commits på GitHub. Om du skriver `git status` ef
 
 ### `git pull`
 Hämta nya uppdateringar från GitHub. Hämtar alla commits som du inte har på din dator.
+
+---
 
 ### `git branch`
 Visar vilka branches som finns på din lokala dator. Du kan skapa en ny branch genom att skriva `git branch new-branch-name`.
@@ -73,6 +82,20 @@ Se [Ångra och återställa](#angra-och-aterstalla). Används till många olika 
 
 ---
 
+### `git stash`
+Stoppa undan alla ändringar sedan senaste commit i "stash". Working directory blir därmed *clean*. Då kan man göra commits, byta branch m.m. utan att ändringarna kommer med.
+
+### `git stash pop`
+Hämta tillbaka alla undanstoppade ändringar.
+
+### `git restore`
+Kan ses som en tydligare version av `git reset`. Bland annat kan man återställa alla ändrade filer till senaste commit, eller ångra `git add`.
++ återställ ändrade filer med `git restore .`
++ ångra git add med `git restore --staged .`
+
+
+---
+
 ## Förstagångskonfiguration
 
 När du installerar Git för första gången måste du konfigurera det. Skriv följande i terminalen. Innan du gjort det kan du inte göra en commit.
@@ -86,5 +109,8 @@ git config --global user.name "Ditt Namn"
 git config --global user.email "din.epost@gmail.com"
 ```
 
+[Upp till toppen](#git)
+
+---
 
 Fortsättning följer i del 2: [Workflow](git-workflow.md)
