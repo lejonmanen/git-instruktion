@@ -1,6 +1,6 @@
 [Innehåll](../README.md)
 
-*Uppdaterad juli 2024*
+*Uppdaterad december 2025*
 
 1. [Variabler](#variabler)
 1. [Datatyper](#datatyper)
@@ -16,7 +16,9 @@
 JavaScript har av historiska skäl flera olika sätt att göra det mesta. De flesta guider till JavaScript går igenom flera. Den här guiden väljer att visa ett sätt - det som är modern kod och i förekommande fall best practice. Som JavaScript-utvecklare kommer du så småningom att behöva lära dig mera, men du kan få en enklare start om du börjar med detta.
 
 Den här guiden förklarar inte. Prova att googla eller fråga en AI:
-> Förklara den här koden för mig: (klistra in din kod)
+> Förklara den här koden för mig:
+>
+> (klistra in din kod)
 
 ---
 
@@ -97,7 +99,9 @@ document.
     createElement(tagName)
 
 element.
-    innerText = 'hello'
+	textContent = 'hello'
+    innerHTML = `hello <br> world`
+	children
     classList.
         add(classname)
         remove(classname)
@@ -116,6 +120,11 @@ inputElement.
 ```
 Vanliga events: click, change, keyDown och blur.
 
+Artiklar
++ [Läs om skillnaden mellan innerHTML, innerText och textContent](https://www.freecodecamp.org/news/innerhtml-vs-innertext-vs-textcontent/)
++ [Läs om säkerhetsrisker med innerHTML](https://medium.com/@sparklewebhelp/understanding-the-risks-of-using-inner-html-in-web-development-30d4fa67f815)
+
+
 ### API och asynkron kod
 ```js
 async getData() {
@@ -125,9 +134,11 @@ async getData() {
         const const data = await response.json()
         return data
     } catch(error) {
-        // handle error
+        // hantera eventuella fel
         console.log(error.message)
-    }
+    } finally {
+		// körs efter både try eller catch
+	}
 }
 ```
 
