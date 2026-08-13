@@ -1,8 +1,9 @@
 [Innehåll](../README.md)
 
-*Uppdaterad april 2025*
+*Uppdaterad augusti 2026*
 
 1. [TL;DR](#tldr)
+1. [För dig som är yh-student](#för-dig-som-är-yh-student)
 1. [Exempel på frågor du kan ställa till en AI](#exempel-på-frågor-du-kan-ställa-till-en-ai)
 1. [Tänk långsiktigt](#tänk-långsiktigt)
 1. [Bli bättre på att prompta](#bli-bättre-på-att-prompta)
@@ -15,14 +16,19 @@
 # AI
 Från och med att ChatGPT släpptes i november 2022 har vi tillgång till en oerhört kraftfull gratis assistent. Sedan dess har det kommit många andra LLMs (large language model) som har ungefär samma funktionalitet.
 
-Idag (VT 2025) ser vi att AI integreras i fler och fler appar.
+Idag (HT 2026) ser vi att AI integreras i fler och fler appar.
 
 AI är ett arbetsredskap som du kommer behöva lära dig att använda på bästa sätt. Se AI som en *entusiastisk assistent*, som vill hjälpa till, men inte alltid är så noga med vad som är sant.
 
 ## TL;DR
-För dig som är yh-student:
 
-**Använd AI för att:**
+Sammanfattning av ChatGPT:
+> Använd AI för att förstå, öva, felsöka och diskutera programmering – men låt inte AI göra själva tänkandet åt dig, och behandla alltid AI:s svar som ett förslag som måste verifieras.
+
+
+## För dig som är yh-student:
+
+### Använd AI för att
 
 | |Syfte |Exempel |
 |-|-|-|
@@ -35,8 +41,15 @@ För dig som är yh-student:
 |7|Lösa specifika problem |Jag behöver sortera en lista med strängar. Förklara hur jag kan göra, men ge mig inte hela lösningen direkt. |
 |8|Sammanfatta längre texter |Jag försöker lära mig funktioner och läste detta online. Sammanfatta följande text i punktform: ... |
 
+### Tänk på att
+Börja varje ny AI-konversation med att ge bakgrund och sammanhang. Ju mer du berättar om din situation och vem du är, desto bättre kan AI:n svara. Lägg lite tid på att bygga en bra grundprompt, som du kan återanvända. Du kan spara den i AI-verktyget eller i ett separat dokument.
 
-**Se upp med:**
+Exempel på sammanhang:
+> Jag är en student på yrkeshögskola som ska lära mig Python. Jag kan C# och objektorientering så du kan förutsätta att jag förstår det. Men jag är nybörjare i Python. Jag kommer ställa frågor om testning med pytest. Det viktigaste är inte svaret, utan att jag lär mig. Ställ frågor som kontrollerar att jag har förstått. Ge mig inte hela lösningen direkt. Upprepa dig inte.
+
+Detta hjälper AI:n att anpassa svaret.
+
+### Se upp med
 
 1. Försök alltid själv innan du använder AI
 1. Be aldrig om färdiga lösningar - då lär du dig inte själv
