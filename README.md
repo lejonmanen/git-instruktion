@@ -8,6 +8,7 @@ Målgruppen är studenter på yrkeshögskola, som läser en programmeringsutbild
 1. [Studieteknik](md/studieteknik.md#Studieteknik)
 1. [Att fråga om hjälp](md/get-help.md#be-om-hjälp)
 1. [Använda AI](md/ai.md#ai)
+1. [Fällor](md/ai-traps.md#fällor)
 
 ### Git
 1. [Git](md/git.md#git)
