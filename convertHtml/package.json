@@ -1,0 +1,16 @@
+{
+  "name": "converthtml",
+  "version": "1.0.0",
+  "description": "Script that produces HTML files from all .md files.",
+  "main": "build.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js && cp common.css ./output/ && cp common.css ./output/md/ && cp -r ../img/ ./output/img/"
+  },
+  "keywords": [],
+  "author": "David Andersson",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^18.0.10"
+  }
+}
