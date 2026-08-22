@@ -174,8 +174,8 @@ async function processDir(srcDir, outDir) {
 // Processes a single file: converts it if it's markdown, otherwise copies it
 // through unchanged. outDir is the *directory* the file belongs in (its
 // output name is derived from srcFile's basename).
-async function processFile(srcFile, outDir) {
-	const outPath = path.join(outDir, path.basename(srcFile));
+async function processFile(srcFile, outDir, outFile='') {
+	const outPath = path.join(outDir, path.basename(outFile || srcFile));
 
 	if (/\.md$/i.test(srcFile)) {
 		await convertMarkdownFile(srcFile, outPath);
@@ -198,7 +198,7 @@ async function main() {
 	// const srcDir = path.resolve(srcArg);
 	// const outDir = path.resolve(outArg);
 
-	await processFile('../README.md', './output')
+	await processFile('../README.md', './output', 'index.html')
 	await processDir('../md/', './output/md')
 	// await copyAsset('../img/', './output/img')
 	console.log(`Done. HTML written to output/`);
