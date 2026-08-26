@@ -17,6 +17,7 @@
 | Parson problem       | https://github.com/davidsvson/parsonProblem , https://davidsvson.github.io/parsonProblem/ , https://github.com/lejonmanen/parson-shuffle-code  | Ett Parson problem handlar om att ordna raderna i en kodfil, så att de kommer i rätt ordning | David Svensson |
 | Turtle graphics      | https://github.com/lejonmanen/turtle , https://lejonmanen.github.io/turtle/ | Turtle graphics med vanilla JS |
 | Text adventure       | https://github.com/lejonmanen/adventure , https://lejonmanen.github.io/adventure/ | Ramverk för textäventyr, vanilla JS |
+| Visualize folders    | https://github.com/lejonmanen/visualize-folders , https://forverkliga.se/JavaScript/folder-visualizer/ | Skapa bild eller markdown-vänlig text som representerar en mappstruktur |
 
 ---
 
