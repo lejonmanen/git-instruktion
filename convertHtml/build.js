@@ -98,7 +98,7 @@ marked.use({
 
 // --- HTML template ---------------------------------------------------------
 
-function renderPage({ title, rootClass, body }) {
+function renderPage({ title, rootClass, body, cssPath = 'https://lejonmanen.github.io/git-instruktion/md/common.css' }) {
 	return `<!doctype html>
 <html lang="se">
 <head>
@@ -109,7 +109,7 @@ function renderPage({ title, rootClass, body }) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./common.css">
+<link rel="stylesheet" href="${cssPath}">
 </head>
 <body class="${rootClass}">
 	${body}
